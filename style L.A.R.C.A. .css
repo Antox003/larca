@@ -230,8 +230,25 @@ html .body {
 
 /*Foto ministro*/
 
+#foto-ministro{
+  background: darkred;
+  height: auto;
+}
+
+#foto-ministro{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size:50px ;
+}
+
+#foto-ministro .title h1 .color{
+  color: orange;
+}
+
+
 #slider{
-  height: 100vh;
+  height: 70vh;
   background: darkred;
 }
 
@@ -306,6 +323,42 @@ input[name=r]{
   margin-left: -60%;
 }
 
+#r5:checked ~ .s1{
+  margin-left: -80%;
+}
+
+/*FOTO FORTUNA*/
+#foto-fortuna{
+  background: darkred;
+  height: auto;
+}
+
+#foto-fortuna{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size:50px ;
+}
+
+#foto-fortuna .title h1 .color{
+  color: orange;
+}
+
+#allert-box .allert{
+  background: darkred;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom:2rem ;
+}
+
+#allert-box .allert h2{
+  background: #333;
+  color: orange;
+  border-radius: 10px;
+  font-size: 30px;
+  width: 700px;
+}
 
 
 /*Storia*/
