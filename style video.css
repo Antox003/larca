@@ -1,0 +1,1212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+html .body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+/*Navbar*/
+#navbar {
+    background: #333;
+}
+  
+#navbar .container .logo{
+    color: white; 
+    text-decoration: none;
+    font-size: 50px;
+    padding-left: 1rem;
+}
+  
+#navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+} 
+  
+.menu li a{
+    text-decoration:none;
+    color: orange;
+}
+  
+.menu li{
+    color: orange;
+    display: block;
+    float: left;
+    width: 136px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+  
+.menu li.current{
+    color: white;
+}
+  
+.menu li:hover{
+    background: #555;
+    color: white;
+    border-radius: 4px;
+}
+
+/*Video*/
+/*Title*/
+#video-gallery{
+    height: 40vh;
+    background: url('https://www.ilcinemaincasa.it/wp-content/uploads/2020/09/cinema-01.jpg')no-repeat top center/cover;
+  }
+  
+  #video-gallery{
+    padding-top: 10rem;
+  }
+
+  #video-gallery .title{
+  display: flex;
+  justify-content: center;
+  font-size: 67px;
+  color: white;
+  }
+  
+  .title .color{
+    color: orange;
+  }
+  
+  /*Video spettacoli*/
+  #subfooter2 h1{
+  color: orange;
+  font-size: 60px;
+  background: #333;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  #spettacoli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkred;
+    height: auto;
+  }
+  
+  .container-spettacoli{
+    position: relative;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  
+  .container-spettacoli .card{
+    max-width: 300px;
+    height: 215px;
+    background: beige;
+    margin: 30px 10px ;
+    padding: 20px 15px ;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out ;
+    border-radius: 10px;
+  }
+  
+  .container-spettacoli .card:hover{
+    height: 420px;
+  }
+  
+  .container-spettacoli .card .imgBx{
+    position: relative;
+    width: 260px;
+    height: 200px;
+    top: -60px;
+    left: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container-spettacoli .card .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .container-spettacoli .card .paragrafo{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: darkred;
+    font-size: 18px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .container-spettacoli .card .paragrafo a {
+    color: darkred;
+  }
+  
+  .container-spettacoli .card:hover .paragrafo{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s ;
+  }
+  
+  .container-spettacoli .card .paragrafo .color{
+    color: orange;
+  }
+  
+  #noavailable{
+    cursor: not-allowed;
+  }
+  
+  /*BACKSTAGE*/
+  #backstage{
+    height: auto;
+    background: darkred;
+  }
+  
+  .container-backstage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  
+  .container-backstage .card{
+    max-width: 300px;
+    height: 215px;
+    background: beige;
+    margin: 30px 10px ;
+    padding: 20px 15px ;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out ;
+    border-radius: 10px;
+  }
+  
+  .container-backstage .card:hover{
+    height: 420px;
+  }
+  
+  .container-backstage .card .imgBx{
+    position: relative;
+    width: 260px;
+    height: 200px;
+    top: -60px;
+    left: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container-backstage .card .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .container-backstage .card .paragrafo{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: darkred;
+    font-size: 18px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .container-backstage .card .paragrafo a {
+    color: darkred;
+  }
+  
+  .container-backstage .card:hover .paragrafo{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s ;
+  }
+  
+  
+  /*Fortuna con la effe maiuscola*/
+  #fortuna{
+    background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+    height: auto;
+  }
+  
+  #fortuna .title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  #fortuna .title .color{
+    color: orange;
+  }
+  
+  #fortuna .video{
+    display: flex;
+    justify-content: center;
+  }
+  
+    #fortuna video{
+      padding-bottom: 1rem;
+      width: 70%;
+    }
+  
+  #info {
+    height: auto;
+    background: darkred;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #info .data-ora h2{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+  
+  #info .data-ora p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #trama-fortuna{
+    background: darkred;
+    height: auto;
+  }
+  
+  #trama-fortuna .trama h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+  }
+  
+  #trama-fortuna .trama p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #info .locandina-effe h2{
+   text-align: center;
+   color: orange;
+   font-size: 50px;
+   padding-top: 1.5rem;
+  }
+  
+  #info .locandina-effe img{
+  max-width: 65%;
+  display: block;
+  margin:0 auto;
+  }
+  
+  /*SE QUESTO E' EDUARDO*/
+  #eduardo{
+    background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+    height: auto;
+  }
+  
+  #eduardo .title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  #eduardo .title .color{
+    color: orange;
+  }
+  
+#eduardo .video{
+  display: flex;
+  justify-content: center;
+}
+
+  #eduardo video{
+    padding-bottom: 1rem;
+    width: 70%;
+  }
+
+  #trama-eduardo{
+      height: auto;
+      background: darkred   ;
+  }
+
+  #trama-eduardo .trama h2{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    padding-top: 1.5rem;
+    }
+    
+    #trama-eduardo .trama p{
+      color: white;
+      text-align: center;
+      font-size: 30px;
+    }
+  
+  #info2 {
+    height: auto;
+    background: darkred;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+  }
+  
+  #info2 .data-ora h2{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+  
+  #info2 .data-ora p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #info2 .locandina-eduardo h2{
+   text-align: center;
+   color: orange;
+   font-size: 50px;
+   padding-top: 1.5rem;
+  }
+  
+  #info2 .locandina-eduardo img{
+  max-width: 80%;
+  display: block;
+  margin:0 auto;
+  }
+  
+  /*SCARFALIETTO 1*/
+  #scarfalietto{
+    background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+    height: auto;
+  }
+  
+  #scarfalietto .title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  #scarfalietto .title .color{
+    color: orange;
+  }
+  
+  #scarfalietto .video{
+    display: flex;
+    justify-content: center;
+  }
+  
+    #scarfalietto video{
+      padding-bottom: 1rem;
+      width: 70%;
+    }
+
+  #trama-scarfalietto1{
+    height: auto;
+    background: darkred   ;
+}
+
+#trama-scarfalietto1 .trama h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+  }
+  
+  #trama-scarfalietto1 .trama p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #info3 {
+    height: auto;
+    background: darkred;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+  }
+  
+  #info3 .data-ora h2{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+  
+  #info3 .data-ora p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #info3 .locandina-scarfalietto1 h2{
+   text-align: center;
+   color: orange;
+   font-size: 50px;
+   padding-top: 1.5rem;
+  }
+  
+  #info3 .locandina-scarfalietto1 img{
+  max-width: 80%;
+  display: block;
+  margin:0 auto;
+  }
+  
+  /*A CHE SERVONO QUESTI QUATTRINI*/
+  #quattrini{
+    background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+    height: auto;
+  }
+  
+  #quattrini .title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  #quattrini .title .color{
+    color: orange;
+  }
+  
+  #quattrini .video{
+    display: flex;
+    justify-content: center;
+  }
+  
+    #quattrini video{
+      padding-bottom: 1rem;
+      width: 70%;
+    }
+  
+  #info4 {
+    height: auto;
+    background: darkred;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #trama-quattrini{
+    height: auto;
+    background: darkred   ;
+}
+
+#trama-quattrini .trama h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+  }
+  
+  #trama-quattrini .trama p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #info4 .data-ora h2{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+  
+  #info4 .data-ora p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #info4 .locandina-eduardo h2{
+   text-align: center;
+   color: orange;
+   font-size: 50px;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+  }
+  
+  #info4 .locandina-eduardo img{
+  max-width: 80%;
+  display: block;
+  margin:0 auto;
+  }
+  
+  /*DOJE MARITE MBRUGLUNE*/
+  #marite{
+    background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+    height: auto;
+  }
+  
+  #marite .title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  #marite .title .color{
+    color: orange;
+  }
+  
+  #marite .video{
+    display: flex;
+    justify-content: center;
+  }
+  
+    #marite video{
+      padding-bottom: 1rem;
+      width: 70%;
+    }
+
+  #info5 {
+    height: auto;
+    background: darkred;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #trama-marite{
+      background: darkred;
+      height: auto;
+  }
+
+  #trama-marite .trama h2{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    padding-top: 1.5rem;
+    }
+    
+    #trama-marite .trama p{
+      color: white;
+      text-align: center;
+      font-size: 30px;
+    }
+  
+    #info5 .data-ora h2{
+      font-size: 50px;
+      color: orange;
+      text-align: center;
+      padding-top: 1.5rem;
+    }
+    
+    #info5 .data-ora p{
+      color: white;
+      text-align: center;
+      font-size: 30px;
+    }
+  
+  #info5 .locandina-marite h2{
+   text-align: center;
+   color: orange;
+   font-size: 50px;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+  }
+  
+  #info5 .locandina-marite img{
+  max-width: 80%;
+  display: block;
+  margin:0 auto; 
+  }
+  
+/*SCARFALIETTO 2*/
+#scarfalietto2{
+    background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+    height: auto;
+  }
+  
+  #scarfalietto2 .title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  #scarfalietto2 .title .color{
+    color: orange;
+  }
+  
+  #scarfalietto2 .video{
+    display: flex;
+    justify-content: center;
+  }
+  
+    #scarfalietto2 video{
+      padding-bottom: 1rem;
+      width: 70%;
+    }
+
+  #trama-scarfalietto2{
+    height: auto;
+    background: darkred;
+}
+
+#trama-scarfalietto2 .trama h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+  }
+  
+  #trama-scarfalietto2 .trama p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #info6 {
+    height: auto;
+    background: darkred;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+  }
+  
+  #info6 .data-ora h2{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+  
+  #info6 .data-ora p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #info6 .locandina-scarfalietto2 h2{
+   text-align: center;
+   color: orange;
+   font-size: 50px;
+   padding-top: 1.5rem;
+  }
+  
+  #info6 .locandina-scarfalietto2 img{
+  max-width: 50%;
+  display: block;
+  margin: auto;
+  }
+  
+/*Tre pecore viziose*/
+#pecore{
+  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  height: auto;
+}
+
+#pecore .title{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#pecore .title .color{
+  color: orange;
+}
+
+#pecore .subtitle{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+#pecore .subtitle h3{
+  color: white;
+  font-size: 40px;
+  background: #333;
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#trama-pecore{
+    height: auto;
+    background: darkred   ;
+}
+
+#trama-pecore .trama h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+  }
+  
+  #trama-pecore .trama p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+#info7 {
+  height: auto;
+  background: darkred;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+#info7 .data-ora h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+#info7 .data-ora p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+#info7 .locandina-pecore h2{
+ text-align: center;
+ color: orange;
+ font-size: 50px;
+ padding-top: 1.5rem;
+}
+
+#info7 .locandina-pecore img{
+max-width: 80%;
+display: block;
+margin:0 auto;
+}
+
+/*ministro video*/
+
+#ministro{
+  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  height: auto;
+}
+
+#ministro .title{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#ministro .title .color{
+  color: orange;
+}
+
+#ministro .subtitle{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+#ministro .subtitle h3{
+  color: white;
+  font-size: 40px;
+  background: #333;
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#trama-ministro{
+    height: auto;
+    background: darkred   ;
+}
+
+#trama-ministro .trama h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+  }
+  
+  #trama-ministro .trama p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+#info8 {
+  height: auto;
+  background: darkred;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+#info8 .data-ora h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+#info8 .data-ora p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+#info8 .locandina-ministro h2{
+ text-align: center;
+ color: orange;
+ font-size: 50px;
+ padding-top: 1.5rem;
+}
+
+#info8 .locandina-ministro img{
+max-width: 80%;
+display: block;
+margin:0 auto;
+}
+
+
+/*sinneco video*/
+
+#sinneco{
+  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  height: auto;
+}
+
+#sinneco .title{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#sinneco .title .color{
+  color: orange;
+}
+
+#sinneco .subtitle{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+#sinneco .subtitle h3{
+  color: white;
+  font-size: 40px;
+  background: #333;
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#trama-sinneco{
+    height: auto;
+    background: darkred;
+}
+
+#trama-sinneco .trama h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+  }
+  
+  #trama-sinneco .trama p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+#info9 {
+  height: auto;
+  background: darkred;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+#info9 .data-ora h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+#info9 .data-ora p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+#info9 .locandina-sinneco h2{
+ text-align: center;
+ color: orange;
+ font-size: 50px;
+ padding-top: 1.5rem;
+}
+
+#info9 .locandina-sinneco img{
+max-width: 80%;
+display: block;
+margin:0 auto;
+}
+
+
+/*lettere video*/
+
+#lettere{
+  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  height: auto;
+}
+
+#lettere .title{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#lettere .title .color{
+  color: orange;
+}
+
+#lettere .subtitle{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+#lettere .subtitle h3{
+  color: white;
+  font-size: 40px;
+  background: #333;
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#trama-lettere{
+    height: auto;
+    background: darkred;
+}
+
+#trama-lettere .trama h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+  }
+  
+  #trama-lettere .trama p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+#info10 {
+  height: auto;
+  background: darkred;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+#info10 .data-ora h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+#info10 .data-ora p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+#info10 .locandina-lettere h2{
+ text-align: center;
+ color: orange;
+ font-size: 50px;
+ padding-top: 1.5rem;
+}
+
+#info10 .locandina-lettere img{
+max-width: 80%;
+display: block;
+margin:0 auto;
+}
+
+/*SCUSE SAVERIO*/
+#scuse{
+  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  height: 100vh;
+}
+
+#scuse .title{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#scuse .title .color{
+  color: orange;
+}
+
+#scuse .video{
+  display: flex;
+  justify-content: center;
+}
+
+  #scuse video{
+    padding-bottom: 1rem;
+    width: 70%;
+  }
+
+#scuse-saverio{
+  background: darkred;
+}
+
+#scuse-saverio .trama h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+  }
+  
+  #scuse-saverio .trama p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+/*BACKSTAGE DOJE MARITE MBRUGLUNE*/
+#backstage-marite{
+  background: darkred;
+}
+
+#backstage-marite .trama h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+  
+#backstage-marite .trama p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/*Footer*/
+#footer{
+    height: auto;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+  
+#footer h3{
+    color: orange;
+}
+  
+.contatti h3{
+    padding-left: 60px;
+    padding-top: 10px;
+}
+  
+.contatti{
+    font-size: 20px;
+}
+  
+.contatti p{
+    padding-left: 25px;
+}
+  
+.contatti p a{
+    color: white;
+}
+  
+.contatti p a:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+  
+.contatti img{
+    max-width: 45px;
+}
+  
+.contatti .facebook{
+    display: flex;
+    align-items: center;
+}
+  
+.contatti .facebook a{
+    padding-left: 1rem;
+    color: white;
+}
+  
+.contatti .facebook a:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+  
+.dedica {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 3rem;
+}
+  
+.dedica .color{
+    color: orange;
+}
+  
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.sviluppo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    color: orange;
+}

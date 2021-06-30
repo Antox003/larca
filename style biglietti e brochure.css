@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+html .body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+/*Navbar*/
+#navbar {
+    background: #333;
+}
+  
+#navbar .container .logo{
+    color: white; 
+    text-decoration: none;
+    font-size: 50px;
+    padding-left: 1rem;
+}
+  
+#navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+} 
+  
+.menu li a{
+    text-decoration:none;
+    color: orange;
+}
+  
+.menu li{
+    color: orange;
+    display: block;
+    float: left;
+    width: 136px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+  
+.menu li.current{
+    color: white;
+}
+  
+.menu li:hover{
+    background: #555;
+    color: white;
+    border-radius: 4px;
+}
+
+
+/*Biglietti & Brochure*/
+#biglietti-brochure {
+    background: url('https://0.s3.envato.com/files/138478059/eps2014112023166080793.jpg');
+    height: 40vh;
+  }
+   
+  #biglietti-brochure .title{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 9rem;
+  }
+  
+  /*Section1*/
+  #biglietti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkred;
+    height: auto;
+  }
+  
+  #biglietti .box-biglietti{
+    position: relative;
+    width: 1450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  
+  #biglietti .box-biglietti .box{
+    width: 335px;
+  height: 500px;
+  background: beige;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.7s ease;
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+  }
+
+  .box img{
+    max-width:100%;
+    height: 240px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .box a{
+    text-align: center;
+    color: darkred;
+    margin: 1rem;
+    font-size: 25px;
+  }
+  
+  .box p{
+    text-align: center;
+  }
+  
+  .box p{
+    color: darkred;
+    margin: 1rem;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .box:hover{
+    transform: scale(1.1);
+  }
+
+/*Rassegna 94'*/
+#rassegna94{
+    background: url('https://www.wallpapertip.com/wmimgs/25-256665_photo-collection-theatre-stage-wallpaper-theatre-stage.jpg')no-repeat center center/cover;
+    height: auto;
+  }
+  
+  #rassegna94 .container .title2{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .container .title2 .color2{
+    color: orange;
+  }
+  
+  #rassegna94 .biglietti94{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+  }
+  
+  .biglietti94 .biglietto94-1 img{
+    max-width: 40%;
+  }
+  
+  .biglietti94 .biglietto94-2 img{
+    max-width: 40%;
+  }
+  
+  .biglietti94-b {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .biglietti94-b img{
+    max-width: 60%;
+    padding-top: 2rem;
+  }
+  
+  #abbonamento2 {
+    background: darkred;
+    height: auto;
+  }
+  
+  #abbonamento2 .title{
+    color: orange;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  #abbonamento2 .front-end2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+  }
+  
+
+
+/*Rassegna 95'*/
+#biglietti95{
+    background:url('https://www.noteateatro.it/wp-content/uploads/2016/04/sfondo-teatro-3.jpg')no-repeat center center/cover;
+    height: 120vh;
+  }
+  
+  .container .title h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .container .title .color{
+    color: orange;
+  }
+  
+  .container .subtitle h1{
+    color: white;
+    font-size: 40px;
+    padding-left: 3rem;
+    padding-top: 3rem;
+  }
+  
+  .container .subtitle .color{
+    color: orange;
+  }
+  
+  #biglietti95 .biglietti{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .biglietti .biglietto1 img{
+    padding-top: 1.5rem;
+    max-width: 800px;
+  }
+  
+  .biglietti .biglietto2 img{
+    padding-top: 1.5rem;
+    max-width: 800px;
+  }
+  
+  #subfooter{
+    height: 5vh;
+    background: #333;
+  }
+  
+  #abbonamento{
+    background: darkred;
+    height: 110vh;
+  }
+  
+  #abbonamento .front-end{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #abbonamento .title h1{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  .abbonamento1 img{
+    max-width: 500px;
+  }
+  
+  .abbonamento2 img{
+    max-width: 500px;
+  }
+  
+  /*Rassegna 96'*/
+  #rassegna96{
+    background: url('https://i.pinimg.com/originals/97/5d/5a/975d5a15d7df9b1b6edfd92af344489d.jpg')no-repeat center center/cover;
+    height: 100vh;
+  }
+  
+  .biglietti96{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .biglietti96 .biglietto96-1 img{
+    max-width: 750px;
+    padding-top: 10rem;
+  }
+  
+.biglietti96 .biglietto96-2 img{
+    max-width: 750px;
+    padding-top: 10rem;
+}
+  
+  /*Altri inviti*/
+#inviti{
+    background: url('https://www.voicebookradio.com/wp-content/uploads/2021/03/cinema-4609877_1280.jpg')no-repeat center center/cover;
+    height: auto;
+}
+
+#inviti .contenitore .title {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#inviti .contenitore .title .color{
+    color: orange;
+}
+
+#inviti .invito{
+display: flex;
+justify-content: space-around;
+}
+
+#inviti .invito .biglietto img{
+    width: 1000px;
+    padding-top: 1rem;
+}
+
+#inviti .invito .descrizione{
+    color: white;
+    font-size: 30px;
+    padding-top: 9rem;
+}
+
+#inviti .invito .descrizione h2{
+    background: black;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+
+#inviti .invito .descrizione h2 .color{
+    color: orange ;
+}
+
+#inviti .invito .biglietto-verticale img{
+    width: 800px;
+    padding-top: 1rem;
+}
+
+#inviti .invito .descrizione-verticale{
+    color: white;
+    font-size: 30px;
+    padding-top: 25rem;
+}
+
+#inviti .invito .descrizione-verticale h2{
+    background: black;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+
+#inviti .invito .descrizione-verticale h2 .color{
+    color: orange ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+#footer{
+    height: auto;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+  
+#footer h3{
+    color: orange;
+}
+  
+.contatti h3{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+  
+.contatti{
+    font-size: 20px;
+}
+  
+.contatti p{
+    padding-left: 25px;
+}
+  
+.contatti p a{
+    color: white;
+}
+  
+.contatti p a:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+  
+.contatti img{
+    max-width: 45px;
+}
+  
+.contatti .facebook{
+    display: flex;
+    align-items: center;
+}
+  
+.contatti .facebook a{
+    padding-left: 1rem;
+    color: white;
+}
+  
+.contatti .facebook a:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+  
+.dedica {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 3rem;
+}
+  
+.dedica .color{
+    color: orange;
+}
+
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.sviluppo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    color: orange;
+}

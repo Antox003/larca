@@ -1,0 +1,647 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html .body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Navbar*/
+#navbar {
+  background: #333;
+}
+
+#navbar .container .logo{
+  color: white; 
+  text-decoration: none;
+  font-size: 50px;
+  padding-left: 1rem;
+}
+
+#navbar .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+} 
+
+.menu li a{
+  text-decoration:none;
+  color: orange;
+}
+
+.menu li{
+  color: orange;
+  display: block;
+  float: left;
+  width: 136px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.menu li.current{
+  color: white;
+}
+
+.menu li:hover{
+  background: #555;
+  color: white;
+  border-radius: 4px;
+}
+
+/*Home*/
+/*Section1*/
+
+#showcase .container{
+  background: url('./LARCA/background/home\ background.jpg') center center/cover ;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+#showcase .container .color{
+  color: white;
+}
+
+#showcase .container h1{
+  color: orange;
+  background: black;
+  width: 105vh;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*Section2*/
+
+#sito{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: darkred;
+  height: auto;
+}
+
+.altro{
+  position: relative;
+  width: 1700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.altro .box{
+  width: 335px;
+  height: 500px;
+  background: beige;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.7s ease;
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.box img{
+  max-width: 100%;
+  height: 240px;
+  width: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box a{
+  text-align: center;
+  color: darkred;
+  margin: 1rem;
+  font-size: 25px;
+}
+
+.box p{
+  color: darkred;
+  margin: 1rem;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.box:hover{
+  transform: scale(1.1);
+}
+
+
+
+/*Galleria*/
+
+#gallery {
+  background:url('./LARCA/background/camera\ roll.jpeg')no-repeat center center/cover;
+  height: 60vh;
+}
+
+#gallery .title .color{
+  display: flex;
+  justify-content: center;
+  color: White;
+  font-size: 90px;
+  padding-top: 14rem;
+}
+
+#foto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: darkred;
+  height: auto;
+}
+
+.container-foto{
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.container-foto .card{
+  max-width: 300px;
+  height: 215px;
+  background: beige;
+  margin: 30px 10px ;
+  padding: 20px 15px ;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out ;
+  border-radius: 10px;
+}
+
+.container-foto .card:hover{
+  height: 420px;
+}
+
+.container-foto .card .imgBx{
+  position: relative;
+  width: 260px;
+  height: 200px;
+  top: -60px;
+  left: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container-foto .card .imgBx img{
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.container-foto .card .paragrafo{
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: darkred;
+  font-size: 18px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.container-foto .card .paragrafo a {
+  color: darkred;
+}
+
+.container-foto .card:hover .paragrafo{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s ;
+}
+
+.container-foto .card .paragrafo .color{
+  color: orange;
+}
+
+/*Foto ministro*/
+
+#slider{
+  height: 100vh;
+  background: darkred;
+}
+
+.slidershow{
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.middle{
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left:50% ;
+  transform: translateX(-50%); 
+  display: flex;
+}
+
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bar:hover{
+  background: #fff;
+}
+
+input[name=r]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.7s;
+}
+
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+
+
+
+/*Storia*/
+/*Section1*/
+
+#storia .container{
+  background: darkred;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#storia .container .sinistra h1{
+  font-size: 50px;
+  color: white;
+  margin-left: 3rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+#storia .container .sinistra .color{
+  color: orange;
+}
+
+#storia .container .sinistra p{
+  font-size: 30px;
+  margin-top: 1.5rem;
+  max-width: 1000px;
+  padding-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+/*Section2*/
+
+#storia2 .container2 {
+  background: rgb(87, 86, 86);
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+}
+
+#storia2 .container2 .sinistra2 img{
+  max-width: 100%;
+}
+
+#storia2 .container2 .destra2 h1 {
+  font-size: 45px;
+  margin-top: 3rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+#storia2 .container2 .destra2 .color {
+  color: orange;
+  margin-left: 1.5rem;
+}
+
+#storia2 .container2 .destra2 .color2 {
+  color: orange;
+}
+
+#storia2 .container2 .destra2 ul {
+  font-size: 30px;
+  color: white;
+  margin-left: 1.5rem;
+}
+
+#storia2 .container2 .destra2 a{
+  color: white;
+}
+
+/*LOCANDINE*/
+#locandine-background{
+  background: url('./LARCA/background/locandine\ background.jpg') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+#locandine-background .title h1{
+  color: orange;
+  background: black;
+  padding-top: 0.5rem;
+  width: auto;
+  height: 15vh;
+  border-radius: 10px;
+  text-align: center;
+  font-family: fantasy;
+}
+
+/*Section2 locandine*/
+#locandine{
+  background: darkred;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#locandine #locandine-1 .locandina-title{
+  color: white;
+  font-size: 30px;
+  width: 400px;
+  text-align: center;
+  background: #333;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
+
+#locandine #locandine-1 .locandina-title .color{
+  color: orange;
+}
+
+#locandine #locandine-1 .locandina-a img{
+  max-width: 400px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#locandine #locandine-2 .locandina-title{
+  color: white;
+  font-size: 30px;
+  width: 400px;
+  text-align: center;
+  background: #333;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
+
+#locandine #locandine-2 .locandina-b img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#locandine #locandine-3 .locandina-title{
+  color: white;
+  font-size: 30px;
+  width: 400px;
+  text-align: center;
+  background: #333;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
+
+#locandine #locandine-3 .locandina-c img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*Rassegna Stampa*/
+
+#rassegna {
+  background: url('https://www.consulcesi.it/wp-content/uploads/2020/11/rassegna-stampa-header.jpg')no-repeat center center/cover;
+  height: 40vh;
+}
+
+#rassegna .title{
+  color: white;
+  text-align: center;
+  font-size:60px;
+  padding-top: 5rem;
+}
+
+#rassegna .title .color{
+  color: orange;
+}
+
+#giornali{
+  background: darkred;
+  height: 100vh;
+}
+
+#giornali{
+  background: darkred;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+}
+
+#giornali #giornale-1 .giornale-title{
+  color: white;
+  font-size: 30px;
+  width: 250px;
+  text-align: center;
+  background: #333;
+  border-radius: 10px;
+  margin-left: 7rem;
+}
+
+#giornali #giornale-1 .giornale-title .color{
+  color: orange;
+}
+
+#giornali #giornale-1 .giornale-a img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#giornali #giornale-2 .giornale-title{
+  color: white;
+  font-size: 30px;
+  width: 350px;
+  text-align: center;
+  background: #333;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
+
+#giornali #giornale-2 .giornale-b img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#giornali #giornale-3 .giornale-title{
+  color: white;
+  font-size: 30px;
+  width: 400px;
+  text-align: center;
+  background: #333;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
+
+#giornali #giornale-3 .giornale-c img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+#footer{
+  height: auto;
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+#footer h3{
+  color: orange;
+}
+
+.contatti h3{
+  padding-left: 70px;
+  padding-top: 10px;
+}
+
+.contatti{
+  font-size: 20px;
+}
+
+.contatti p{
+  padding-left: 25px;
+}
+
+.contatti p a{
+  color: white;
+}
+
+.contatti p a:hover{
+  color: orange;
+  transform: scale(1.1);
+}
+
+.contatti img{
+  max-width: 45px;
+}
+
+.contatti .facebook{
+  display: flex;
+  align-items: center;
+}
+
+.contatti .facebook a{
+  padding-left: 1rem;
+  color: white;
+}
+
+.contatti .facebook a:hover{
+  color: orange;
+  transform: scale(1.1);
+}
+
+.dedica {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 3rem;
+}
+
+.dedica .color{
+  color: orange;
+}
+
+.copyright{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sviluppo{
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  color: orange;
+}
