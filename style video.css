@@ -16,6 +16,7 @@ html .body {
     color: white; 
     text-decoration: none;
     font-size: 50px;
+
     padding-left: 1rem;
 }
   
@@ -72,6 +73,18 @@ html .body {
     color: orange;
   }
   
+  #video-gallery .allert{
+    color: white;
+
+  }
+
+  #video-gallery .allert h3{
+    background: #333;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+
   /*Video spettacoli*/
   #subfooter2 h1{
   color: orange;
