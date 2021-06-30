@@ -362,7 +362,10 @@ justify-content: space-around;
 
 
 
-
+#disponibilita{
+  text-decoration: none;
+  cursor: not-allowed;
+}
 
 
 
