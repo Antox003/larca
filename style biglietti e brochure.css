@@ -147,18 +147,16 @@ html .body {
   
   #rassegna94 .biglietti94{
     display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 1.5rem;
   }
   
   .biglietti94 .biglietto94-1 img{
-    max-width: 40%;
+    max-width: 80%;
   }
   
   .biglietti94 .biglietto94-2 img{
-    max-width: 40%;
+    max-width: 80%;
   }
   
   .biglietti94-b {
@@ -167,7 +165,7 @@ html .body {
   }
   
   .biglietti94-b img{
-    max-width: 60%;
+    max-width: 50%;
     padding-top: 2rem;
   }
   
