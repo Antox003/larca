@@ -158,12 +158,12 @@ nav a.active,.menu li:hover{
   height: 60vh;
 }
 
-#gallery .title .color{
-  display: flex;
-  justify-content: center;
+#gallery .title{
+  display: inline;
+  text-align: center;
   color: White;
-  font-size: 90px;
-  padding-top: 14rem;
+  font-size: 50px;
+  line-height: 30rem;
 }
 
 #foto{
