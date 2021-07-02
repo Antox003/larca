@@ -104,7 +104,7 @@ a.active,.menu li:hover{
   position: relative;
   width: 1700px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap; 
   padding-top: 3rem;
@@ -120,7 +120,7 @@ a.active,.menu li:hover{
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   transition: 0.7s ease;
   border-radius: 10px;
-  margin-left: 2rem;
+  
   margin-bottom: 2.5rem;
 }
 
