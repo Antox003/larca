@@ -1,8 +1,8 @@
 *{
-  
+  display: none;
 }
 
-@media (max-width: 1100px){
+
   .checkbtn{
     display: block;
   }
@@ -23,6 +23,7 @@
   }
   nav ul li a{
     font-size: 20px;
+    text-decoration: none;
   }
   a:hover,a.active{
     background: none;
@@ -30,12 +31,6 @@
   #check:checked ~ ul{
     left: 0;
   }
-}
-section{
-  background: url(bg1.jpg) no-repeat;
-  background-size: cover;
-  height: calc(100vh - 80px);
-}
 
 /*HOME TITLE*/
 #showcase .container{
