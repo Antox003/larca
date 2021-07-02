@@ -37,3 +37,8 @@ section{
   background-size: cover;
   height: calc(100vh - 80px);
 }
+
+/*Home titolo*/
+#showcase .container{
+  font-size: 40px;
+}
