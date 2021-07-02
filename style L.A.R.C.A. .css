@@ -7,9 +7,7 @@ html .body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
-
+/*NAVBAR*/
 nav{
   background: #333;
   height: 80px;
@@ -46,7 +44,7 @@ nav ul li a{
   border-radius: 3px;
   text-transform: uppercase;
 }
-a.active,.menu li:hover{
+nav a.active,.menu li:hover{
   background: #555;
   color: white;
   border-radius: 10px;
@@ -749,13 +747,13 @@ input[name=r]{
 
 #footer{
   height: auto;
-
   background: #333;
   color: white;
   display: flex;
   justify-content: space-around;
   flex-wrap:  wrap;
   padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 #footer h3{

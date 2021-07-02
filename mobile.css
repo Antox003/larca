@@ -1,12 +1,10 @@
 *{
   
 }
-
-
   .checkbtn{
     display: block;
   }
-  ul{
+  nav ul{
     position: fixed;
     width: 100%;
     height: auto;
@@ -25,7 +23,7 @@
     font-size: 20px;
     text-decoration: none;
   }
-  a:hover,a.active{
+  nav a:hover,a.active{
     background: none;
   }
   #check:checked ~ ul{
@@ -36,3 +34,13 @@
 #showcase .container{
   font-size: 40px;
 }
+
+/*STROIA SEZIONE 2*/
+#storia2 .container2 .sinistra2 img{
+  display: none;
+}
+#storia2 .container2 .destra2 h1 {
+ text-align: center ;
+  }
+
+  
