@@ -7,7 +7,66 @@ html .body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*Navbar*/
+
+
+
+nav{
+  background: #333;
+  height: 70px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  ;
+  padding: 0 50px;
+  font-size: 50px;
+  font: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  margin: 10px 30px;
+  color: orange;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.menu li.current{
+  color: white;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,.menu li:hover{
+  background: #555;
+  color: white;
+  border-radius: 10px;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+
+/*Navbar
 #navbar {
   background: #333;
 }
@@ -69,7 +128,7 @@ html .body {
 #showcase .container h1{
   color: orange;
   background: black;
-  width: 700px;
+  width: auto;
   border-radius: 10px;
   text-align: center;
 }
@@ -733,10 +792,12 @@ input[name=r]{
 
 #footer{
   height: auto;
+
   background: #333;
   color: white;
   display: flex;
   justify-content: space-around;
+  flex-wrap:  wrap;
   padding-top: 2rem;
 }
 
