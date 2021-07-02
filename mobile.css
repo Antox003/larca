@@ -26,7 +26,7 @@
   }
   a:hover,a.active{
     background: none;
-    color: #0082e6;
+    color: #333;
   }
   #check:checked ~ ul{
     left: 0;
