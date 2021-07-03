@@ -277,12 +277,8 @@ a.active,.menu li:hover{
   #fortuna .video{
     display: flex;
     justify-content: center;
+    padding-bottom: 1rem;
   }
-  
-    #fortuna video{
-      padding-bottom: 1rem;
-      width: 70%;
-    }
   
   #info {
     height: auto;
@@ -1113,11 +1109,6 @@ margin:0 auto;
   justify-content: center;
 }
 
-  #scuse video{
-    padding-bottom: 1rem;
-    width: 70%;
-  }
-
 #scuse-saverio{
   background: darkred;
 }
@@ -1138,6 +1129,12 @@ margin:0 auto;
 /*BACKSTAGE DOJE MARITE MBRUGLUNE*/
 #backstage-marite{
   background: darkred;
+}
+
+#marite .video{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
 }
 
 #backstage-marite .trama h2{
