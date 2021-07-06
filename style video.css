@@ -434,12 +434,9 @@ a.active,.menu li:hover{
   #scarfalietto .video{
     display: flex;
     justify-content: center;
+    padding-bottom: 1rem;
   }
   
-    #scarfalietto video{
-      padding-bottom: 1rem;
-      width: 70%;
-    }
 
   #trama-scarfalietto1{
     height: auto;
