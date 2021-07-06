@@ -150,7 +150,6 @@ nav a.active,.menu li:hover{
 }
 
 
-
 /*Galleria*/
 
 #gallery {
@@ -573,10 +572,6 @@ input[name=r]{
   margin-left: 7rem;
 }
 
-#giornali #giornale-1 .giornale-title .color{
-  color: orange;
-}
-
 #giornali #giornale-1 .giornale-a img{
   max-width: 500px;
   padding-top: 1rem;
@@ -591,6 +586,7 @@ input[name=r]{
   background: #333;
   border-radius: 10px;
   padding-top: 1rem;
+  margin-left: 5rem;
 }
 
 #giornali #giornale-2 .giornale-b img{
@@ -607,6 +603,7 @@ input[name=r]{
   background: #333;
   border-radius: 10px;
   padding-top: 1rem;
+  margin-left: 3rem;
 }
 
 #giornali #giornale-3 .giornale-c img{
@@ -643,7 +640,7 @@ input[name=r]{
 
 #tecnico{
   background: darkred;
-  height: 100vh;
+  height: auto;
 }
 
 #tecnico{

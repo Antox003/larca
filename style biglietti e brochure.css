@@ -98,7 +98,7 @@ a.active,.menu li:hover{
   }
   
   #biglietti .box-biglietti .box{
-    width: 335px;
+  width: 335px;
   height: 500px;
   background: beige;
   display: flex;

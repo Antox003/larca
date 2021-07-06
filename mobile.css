@@ -7,8 +7,9 @@
       font-size: 30px;
       padding-left: 50px;
     }
-    nav ul li a{
-      font-size: 16px;
+    nav ul li {
+      font-size: 15px;
+      margin: 0px 20px;
     }
   }
   @media (max-width: 858px){
@@ -54,7 +55,7 @@
   font-size: 40px;
 }
 
-/*STORIA SEZIONE 2*/
+/*STORIA-SEZIONE 2*/
 #storia2 .container2 .sinistra2 img{
   display: none;
 }
@@ -70,10 +71,134 @@
   /*VIDEO-GALLERY*/
   #video-gallery .title{
     font-size: 50px;
-    }
+  }
 
-    #video-gallery .allert {
-   
-   
-    }
+  /*RASSEGNA STAMPA*/
+  #giornali #giornale-1 .giornale-a img{
+    max-width: 350px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #giornali #giornale-2 .giornale-b img{
+    max-width: 350px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #giornali #giornale-3 .giornale-c img{
+    max-width: 350px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
   
+  #giornali #giornale-1 .giornale-title{
+    margin-left: 0rem;
+  }
+
+  #giornali #giornale-2 .giornale-title{
+    margin-left: 0rem;
+  }
+
+  #giornali #giornale-3 .giornale-title{
+    margin-left: 0rem;
+    width: 250px;
+  }
+
+  /*LOCANDINE*/
+  #locandine-background{
+    height: 50vh;
+    font-size: 50px;
+  }
+
+  #locandine #locandine-1 .locandina-title{
+    color: white;
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+    background: #333;
+    border-radius: 10px;
+    padding-top: 1rem;
+  }
+  
+  #locandine #locandine-1 .locandina-a img{
+    max-width: 320px;
+  }
+
+  #locandine #locandine-2 .locandina-title{
+    color: white;
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+    background: #333;
+    border-radius: 10px;
+    padding-top: 1rem;
+  }
+  
+  #locandine #locandine-2 .locandina-b img{
+    max-width: 320px;
+  }
+  #locandine #locandine-3 .locandina-title{
+    color: white;
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+    background: #333;
+    border-radius: 10px;
+    padding-top: 1rem;
+  }
+  
+  #locandine #locandine-3 .locandina-c img{
+    max-width: 320px;
+  }
+
+  /*MATERIALE TECNICO*/
+  #tecnico #tecnico-1 .tecnico-title{
+    font-size: 20px;
+    width: 200px;
+    margin-left: 0rem;
+  }
+  
+  #tecnico #tecnico-1 .tecnico-a img{
+    max-width: 320px;
+  }
+
+  #tecnico #tecnico-2 .tecnico-title{
+    font-size: 20px;
+    width: 200px;
+    margin-left: 0rem;
+  }
+  
+  #tecnico #tecnico-2 .tecnico-b img{
+    max-width: 320px;
+  }
+
+  #tecnico #tecnico-3 .tecnico-title{
+    font-size: 20px;
+    width: 200px;
+    margin-left: 0rem;
+  }
+  
+  #tecnico #tecnico-3 .tecnico-c img{
+    max-width: 320px;
+  }
+
+  #tecnico #tecnico-4 .tecnico-title{
+    font-size: 20px;
+    width: 300px;
+    margin-left: 0rem;
+  }
+  
+  #tecnico #tecnico-4 .tecnico-d img{
+    max-width: 320px;
+  }
+
+  /*BIGLIETTI E BROCHURE*/
+
+  #biglietti .box-biglietti{
+    justify-content: space-evenly;
+  }
+
+  #biglietti .box-biglietti .box{
+    margin-left: 0rem;
+    }
