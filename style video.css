@@ -84,7 +84,6 @@ a.active,.menu li:hover{
   
   #video-gallery .allert{
     color: white;
-
   }
 
   #video-gallery .allert h3{
@@ -1049,7 +1048,7 @@ margin:0 auto;
   }
 
 #info10 {
-  height: auto;
+  height: 30vh;
   background: darkred;
   display: flex;
   justify-content: space-around;
