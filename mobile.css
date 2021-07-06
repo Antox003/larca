@@ -74,6 +74,15 @@
   }
 
   /*RASSEGNA STAMPA*/
+  #rassegna {
+    height: auto;
+    padding-bottom: 1rem;
+  }
+  
+  #rassegna .title{
+    font-size:30px;
+  }
+
   #giornali #giornale-1 .giornale-a img{
     max-width: 350px;
     padding-top: 1rem;
