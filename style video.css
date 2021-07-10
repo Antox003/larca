@@ -81,17 +81,6 @@ a.active,.menu li:hover{
   .title .color{
     color: orange;
   }
-  
-  #video-gallery .allert{
-    color: white;
-  }
-
-  #video-gallery .allert h3{
-    background: #333;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 30px;
-  }
 
   /*Video spettacoli*/
   #subfooter2 h1{
@@ -352,12 +341,8 @@ a.active,.menu li:hover{
 #eduardo .video{
   display: flex;
   justify-content: center;
+  padding-bottom: 1rem;
 }
-
-  #eduardo video{
-    padding-bottom: 1rem;
-    width: 70%;
-  }
 
   #trama-eduardo{
       height: auto;
@@ -511,12 +496,8 @@ a.active,.menu li:hover{
   #quattrini .video{
     display: flex;
     justify-content: center;
+    padding-bottom: 1rem;
   }
-  
-    #quattrini video{
-      padding-bottom: 1rem;
-      width: 70%;
-    }
   
   #info4 {
     height: auto;
@@ -593,11 +574,6 @@ a.active,.menu li:hover{
     display: flex;
     justify-content: center;
   }
-  
-    #marite video{
-      padding-bottom: 1rem;
-      width: 70%;
-    }
 
   #info5 {
     height: auto;
@@ -673,12 +649,8 @@ a.active,.menu li:hover{
   #scarfalietto2 .video{
     display: flex;
     justify-content: center;
+    padding-bottom: 1rem;
   }
-  
-    #scarfalietto2 video{
-      padding-bottom: 1rem;
-      width: 70%;
-    }
 
   #trama-scarfalietto2{
     height: auto;
