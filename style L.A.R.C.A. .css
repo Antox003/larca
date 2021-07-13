@@ -444,6 +444,10 @@ input[name=r]{
   color: white;
 }
 
+#storia2 .container2 .destra2 a:hover{
+  color: orange;
+}
+
 /*LOCANDINE*/
 #locandine-background{
   background: url('./LARCA/background/locandine\ background.jpg') no-repeat center center/cover;
@@ -529,7 +533,6 @@ input[name=r]{
 }
 
 /*Rassegna Stampa*/
-
 #rassegna {
   background: url('https://www.consulcesi.it/wp-content/uploads/2020/11/rassegna-stampa-header.jpg')no-repeat center center/cover;
   height: 40vh;

@@ -1,5 +1,5 @@
 *{
-  display:none ;
+ 
 }
 
   @media (max-width: 952px){
@@ -212,3 +212,75 @@
   #biglietti .box-biglietti .box{
     margin-left: 0rem;
     }
+
+
+     /*RASSEGNA 94*/
+
+    .biglietti94 .biglietto94-1 img{
+      max-width: 70%;
+    }
+    
+    .biglietti94 .biglietto94-2 img{
+      max-width: 70%;
+    }
+    
+    .biglietti94-b img{
+      max-width: 70%;
+    }
+
+     /*RASSEGNA 95*/
+    .biglietti .biglietto1 img{
+      max-width: 70%;
+    }
+    
+    .biglietti .biglietto2 img{
+      max-width: 70%;
+    }
+
+    #abbonamento .front-end{
+     padding-left: 1rem;
+    }
+
+    .abbonamento1 img{
+      max-width: 70%;
+    }
+    
+    .abbonamento2 img{
+      max-width: 70%;
+    }
+
+   /*RASSEGNA 96*/
+    .biglietti96 .biglietto96-1 img{
+      max-width: 90%;
+    }
+    
+  .biglietti96 .biglietto96-2 img{
+      max-width: 90%;
+  }
+
+    /*ALTRI INVITI*/
+      #inviti .invito .biglietto img{
+          width: 90%;
+      }
+      
+      #inviti .invito .descrizione{
+          font-size: 20px;
+          padding-top: 3rem;
+      }
+      
+      #inviti .invito .descrizione h2{
+          width: 300px;
+      }
+      
+      #inviti .invito .biglietto-verticale img{
+          width: 90%;
+      }
+      
+      #inviti .invito .descrizione-verticale{
+          font-size: 20px;
+          padding-top: 3rem;
+      }
+      
+      #inviti .invito .descrizione-verticale h2{
+          width: 300px;
+      }

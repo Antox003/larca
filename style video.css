@@ -273,6 +273,7 @@ a.active,.menu li:hover{
     background: darkred;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   
   #info .data-ora h2{
@@ -367,6 +368,7 @@ a.active,.menu li:hover{
     background: darkred;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-top: 1rem;
   }
   
@@ -445,6 +447,7 @@ a.active,.menu li:hover{
     background: darkred;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-top: 1rem;
   }
   
@@ -504,6 +507,7 @@ a.active,.menu li:hover{
     background: darkred;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   
   #trama-quattrini{
@@ -580,6 +584,7 @@ a.active,.menu li:hover{
     background: darkred;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   #trama-marite{
@@ -675,6 +680,7 @@ a.active,.menu li:hover{
     background: darkred;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-top: 1rem;
   }
   
@@ -761,6 +767,7 @@ a.active,.menu li:hover{
   background: darkred;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding-top: 1rem;
 }
 
@@ -848,6 +855,7 @@ margin:0 auto;
   background: darkred;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding-top: 1rem;
 }
 
@@ -879,7 +887,6 @@ margin:0 auto;
 
 
 /*sinneco video*/
-
 #sinneco{
   background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
   height: auto;
@@ -936,6 +943,7 @@ margin:0 auto;
   background: darkred;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding-top: 1rem;
 }
 
@@ -967,7 +975,6 @@ margin:0 auto;
 
 
 /*lettere video*/
-
 #lettere{
   background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
   height: auto;
@@ -1024,6 +1031,7 @@ margin:0 auto;
   background: darkred;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding-top: 1rem;
 }
 
