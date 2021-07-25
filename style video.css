@@ -158,6 +158,10 @@ a.active,.menu li:hover{
     color: darkred;
   }
   
+  .container-spettacoli .card .paragrafo a:hover{
+    color: orange;
+  }
+
   .container-spettacoli .card:hover .paragrafo{
     visibility: visible;
     opacity: 1;
@@ -169,9 +173,7 @@ a.active,.menu li:hover{
     color: orange;
   }
   
-  #noavailable{
-    cursor: not-allowed;
-  }
+
   
   /*BACKSTAGE*/
   #backstage{
@@ -234,7 +236,11 @@ a.active,.menu li:hover{
   .container-backstage .card .paragrafo a {
     color: darkred;
   }
-  
+
+  .container-backstage .card .paragrafo a:hover{
+    color: orange;
+  }
+
   .container-backstage .card:hover .paragrafo{
     visibility: visible;
     opacity: 1;
