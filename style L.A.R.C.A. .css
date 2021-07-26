@@ -230,8 +230,12 @@ nav a.active,.menu li:hover{
   transition: 0.3s ease-in-out;
 }
 
-.container-foto .card .paragrafo a {
+.container-foto .card .paragrafo a{
   color: darkred;
+}
+
+.container-foto .card .paragrafo a:hover{
+  color: orange;
 }
 
 .container-foto .card:hover .paragrafo{
