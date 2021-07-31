@@ -864,19 +864,11 @@ color: orange;
 #scenografie-scarfalietto .title{
   color: white;
   font-size: 40px;
-}
-
-#scenografie-scarfalietto .title{
   text-align: center;
 }
 
 #scenografie-scarfalietto .title .color{
   color: orange;
-}
-
-#tecnico-scarfalietto{
-  background: darkred;
-  height: auto;
 }
 
 #tecnico-scarfalietto{
@@ -908,11 +900,77 @@ color: orange;
   padding-bottom: 5.5rem;
 }
 
+/*Tecnico Ministro 1 (Scenografie)*/
 
+#scenografie-ministro{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  height: auto;
+  background: darkred;
+}
 
+#scenografie-ministro .title{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
 
+#scenografie-ministro .title .color{
+  color: orange;
+}
 
+#tecnico-ministro{
+  background: darkred;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+}
 
+#tecnico-ministro #tecnico-1 .tecnico-a img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+#tecnico-ministro #tecnico-2 .tecnico-b img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+#tecnico-ministro #tecnico-3 .tecnico-c img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+#tecnico-ministro #tecnico-4 .tecnico-d img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+#tecnico-ministro #tecnico-5 .tecnico-a img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+#tecnico-ministro #tecnico-6 .tecnico-b img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+#tecnico-ministro #tecnico-7 .tecnico-c img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
 
 
 
