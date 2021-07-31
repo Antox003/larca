@@ -711,8 +711,6 @@ color: orange;
 }
 
 
-
-
 /*Tecnico Vario*/
 #tecnico{
   background: darkred;
@@ -794,7 +792,121 @@ color: orange;
   padding-bottom: 1rem;
 }
 
+/*Tecnico Fortuna (Scenografie)*/
+#scenografie-fortuna{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  height: auto;
+  background: darkred;
+}
 
+#scenografie-fortuna .title{
+  color: white;
+  font-size: 40px;
+}
+
+#scenografie-fortuna .title{
+  text-align: center;
+}
+
+#scenografie-fortuna .title .color{
+  color: orange;
+}
+
+#tecnico-fortuna{
+  background: darkred;
+  height: auto;
+}
+
+#tecnico-fortuna{
+  background: darkred;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+}
+
+#tecnico-fortuna #tecnico-1 .tecnico-a img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#tecnico-fortuna #tecnico-2 .tecnico-b img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#tecnico-fortuna #tecnico-3 .tecnico-c img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#tecnico-fortuna #tecnico-4 .tecnico-d img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*Tecnico Scarfalietto (Scenografie)*/
+#scenografie-scarfalietto{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  height: auto;
+  background: darkred;
+}
+
+#scenografie-scarfalietto .title{
+  color: white;
+  font-size: 40px;
+}
+
+#scenografie-scarfalietto .title{
+  text-align: center;
+}
+
+#scenografie-scarfalietto .title .color{
+  color: orange;
+}
+
+#tecnico-scarfalietto{
+  background: darkred;
+  height: auto;
+}
+
+#tecnico-scarfalietto{
+  background: darkred;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+}
+
+#tecnico-scarfalietto #tecnico-1 .tecnico-a img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+#tecnico-scarfalietto #tecnico-2 .tecnico-b img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+#tecnico-scarfalietto #tecnico-3 .tecnico-c img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
 
 
 
