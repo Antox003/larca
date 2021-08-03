@@ -901,7 +901,6 @@ color: orange;
 }
 
 /*Tecnico Ministro 1 (Scenografie)*/
-
 #scenografie-ministro{
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -972,7 +971,42 @@ color: orange;
   padding-bottom: 5.5rem;
 }
 
+/*Tecnico Ministro 2 (Scenografie)*/
+#tecnico-ministro #tecnico-1 .tecnico-a img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
 
+#tecnico-ministro #tecnico-2 .tecnico-b img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+#tecnico-ministro #tecnico-3 .tecnico-c img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+#tecnico-ministro #tecnico-4 .tecnico-a img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+#tecnico-ministro #tecnico-5 .tecnico-b img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+#tecnico-ministro #tecnico-6 .tecnico-c img{
+  max-width: 500px;
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
 
 
 
