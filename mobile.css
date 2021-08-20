@@ -1,15 +1,4 @@
-  @media (max-width: 952px){
-    label.logo{
-      font-size: 30px;
-      padding-left: 50px;
-    }
-    nav ul li {
-      font-size: 15px;
-      margin: 0px 20px;
-    }
-  }
 
-  @media (max-width: 858px){
     .checkbtn{
       display: block;
     }
@@ -39,10 +28,7 @@
     #check:checked ~ ul{
       left: 0;
     }
-  }
-
-
-
+  
 /*HOME TITLE*/
 #showcase .container{
   font-size: 40px;
@@ -384,7 +370,7 @@ padding-bottom: 1rem;
 /*FORTUNA VIDEO*/
 
 #fortuna .title{
-font-size: auto;
+font-size: 40px;
 padding-left: 1rem;
 }
 
