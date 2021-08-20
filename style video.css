@@ -87,7 +87,7 @@ a.active,.menu li:hover{
   color: orange;
   font-size: 60px;
   background: #333;
-  height: 10vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1131,6 +1131,10 @@ margin:0 auto;
     text-align: center;
     font-size: 30px;
 }
+
+
+
+
 
 /*Footer*/
 #footer{
