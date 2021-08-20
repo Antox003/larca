@@ -90,7 +90,7 @@ a.active,.menu li:hover{
   height: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-bottom: 3px;
   }
   
   #spettacoli{
