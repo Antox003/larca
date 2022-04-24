@@ -155,7 +155,7 @@ nav a.active,.menu li:hover{
 /*Galleria*/
 
 #gallery {
-  background:url('./LARCA/background/camera\ roll.jpeg')no-repeat center center/cover;
+  background:url('./LARCA/background/camera\ roll.jpeg') no-repeat center center/cover;
   height: 60vh;
 }
 
@@ -539,7 +539,7 @@ input[name=r]{
 
 /*Rassegna Stampa*/
 #rassegna {
-  background: url('https://www.consulcesi.it/wp-content/uploads/2020/11/rassegna-stampa-header.jpg')no-repeat center center/cover;
+  background: url('https://www.consulcesi.it/wp-content/uploads/2020/11/rassegna-stampa-header.jpg') no-repeat center center/cover;
   height: 40vh;
 }
 
@@ -1090,6 +1090,7 @@ color: orange;
   display: flex;
   justify-content: flex-end;
   padding-top: 5rem;
+  font-size: 20px;
 }
 
 .sviluppo{
@@ -1097,4 +1098,5 @@ color: orange;
   justify-content: flex-end;
   align-items: end;
   color: orange;
+  font-size: 20px;
 }
