@@ -153,7 +153,7 @@ a.active,.menu li:hover{
 
 /*Rassegna 94'*/
 #rassegna94{
-    background: url('https://www.wallpapertip.com/wmimgs/25-256665_photo-collection-theatre-stage-wallpaper-theatre-stage.jpg')no-repeat center center/cover;
+    background: url('https://www.wallpapertip.com/wmimgs/25-256665_photo-collection-theatre-stage-wallpaper-theatre-stage.jpg') no-repeat center center/cover;
     height: auto;
     flex-direction: row; 
     flex-wrap: wrap;
@@ -223,7 +223,7 @@ a.active,.menu li:hover{
 
 /*Rassegna 95'*/
 #biglietti95{
-    background:url('https://www.noteateatro.it/wp-content/uploads/2016/04/sfondo-teatro-3.jpg')no-repeat center center/cover;
+    background:url('https://www.noteateatro.it/wp-content/uploads/2016/04/sfondo-teatro-3.jpg') no-repeat center center/cover;
     height: auto;
   }
   
@@ -301,7 +301,7 @@ a.active,.menu li:hover{
   
   /*Rassegna 96'*/
   #rassegna96{
-    background: url('https://i.pinimg.com/originals/97/5d/5a/975d5a15d7df9b1b6edfd92af344489d.jpg')no-repeat center center/cover;
+    background: url('https://i.pinimg.com/originals/97/5d/5a/975d5a15d7df9b1b6edfd92af344489d.jpg') no-repeat center center/cover;
     height: auto;
   }
   
@@ -324,7 +324,7 @@ a.active,.menu li:hover{
   
   /*Altri inviti*/
 #inviti{
-    background: url('https://www.voicebookradio.com/wp-content/uploads/2021/03/cinema-4609877_1280.jpg')no-repeat center center/cover;
+    background: url('https://www.voicebookradio.com/wp-content/uploads/2021/03/cinema-4609877_1280.jpg') no-repeat center center/cover;
     height: auto;
 }
 
@@ -553,6 +553,7 @@ input[name=r]{
   display: flex;
   justify-content: flex-end;
   padding-top: 5rem;
+  font-size: 20px;
 }
 
 .sviluppo{
@@ -560,4 +561,5 @@ input[name=r]{
   justify-content: flex-end;
   align-items: end;
   color: orange;
+  font-size: 20px;
 }

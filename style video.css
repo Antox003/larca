@@ -61,7 +61,7 @@ a.active,.menu li:hover{
 /*Title*/
 #video-gallery{
     height: 40vh;
-    background: url('https://www.ilcinemaincasa.it/wp-content/uploads/2020/09/cinema-01.jpg')no-repeat top center/cover;
+    background: url('https://www.ilcinemaincasa.it/wp-content/uploads/2020/09/cinema-01.jpg') no-repeat top center/cover;
   }
   
   #video-gallery{
@@ -1207,6 +1207,7 @@ margin:0 auto;
   display: flex;
   justify-content: flex-end;
   padding-top: 5rem;
+  font-size: 20px;
 }
 
 .sviluppo{
@@ -1214,4 +1215,5 @@ margin:0 auto;
   justify-content: flex-end;
   align-items: end;
   color: orange;
+  font-size: 20px;
 }
