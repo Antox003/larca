@@ -553,7 +553,7 @@ input[name=r]{
   display: flex;
   justify-content: flex-end;
   padding-top: 5rem;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .sviluppo{
@@ -561,5 +561,5 @@ input[name=r]{
   justify-content: flex-end;
   align-items: end;
   color: orange;
-  font-size: 20px;
+  font-size: 23px;
 }
