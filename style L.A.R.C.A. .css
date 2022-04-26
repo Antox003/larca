@@ -63,8 +63,7 @@ nav a.active,.menu li:hover{
 
 
 /*Home*/
-/*Section1*/
-
+/* Section1 */
 #showcase .container{
   background: url('./LARCA/background/home\ background.jpg') center center/cover ;
   height: 85vh;
@@ -87,7 +86,53 @@ nav a.active,.menu li:hover{
 }
 
 /*Section2*/
+#news{
+  background: darkred;
+  height: auto;
+}
 
+#news .container{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; 
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.container .card{
+  background: beige;
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.7s ease;
+  border-radius: 10px;
+  margin-bottom: 2.5rem;
+}
+
+.container .card:hover{
+  transform: scale(1.1);
+}
+
+#news .card a{
+  margin: 0.5rem;
+  font-size: 25px;
+  color: darkred;
+  text-align: center;
+}
+
+#news .card p{
+  margin: 1rem;
+  font-size: 20px;
+  color: darkred;
+  text-align: center;
+}
+
+
+/*Section3*/
 #sito{
   display: flex;
   justify-content: center;
@@ -116,7 +161,6 @@ nav a.active,.menu li:hover{
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   transition: 0.7s ease;
   border-radius: 10px;
-  
   margin-bottom: 2.5rem;
 }
 
@@ -151,9 +195,7 @@ nav a.active,.menu li:hover{
   transform: scale(1.1);
 }
 
-
-/*Galleria*/
-
+/* Galleria */
 #gallery {
   background:url('./LARCA/background/camera\ roll.jpeg') no-repeat center center/cover;
   height: 60vh;
@@ -850,6 +892,24 @@ color: orange;
   padding-bottom: 1rem;
 }
 
+#tecnico-fortuna #tecnico-5 .tecnico-a img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#tecnico-fortuna #tecnico-6 .tecnico-b img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#tecnico-fortuna #tecnico-7 .tecnico-c img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 /*Tecnico Scarfalietto (Scenografie)*/
 #scenografie-scarfalietto{
   padding-top: 1rem;
@@ -1007,14 +1067,14 @@ color: orange;
 
 
 
-
-
-
-
-
-
-
-
+#subfooter2 h3{
+  color: orange;
+  font-size: 50px;
+  background: #333;
+  height: auto;
+  text-align: center;
+  padding-bottom: 3px;
+}
 
 
 /*Footer*/
@@ -1090,7 +1150,7 @@ color: orange;
   display: flex;
   justify-content: flex-end;
   padding-top: 5rem;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .sviluppo{
@@ -1098,5 +1158,5 @@ color: orange;
   justify-content: flex-end;
   align-items: end;
   color: orange;
-  font-size: 20px;
+  font-size: 23px;
 }
