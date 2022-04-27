@@ -124,6 +124,10 @@ nav a.active,.menu li:hover{
   text-align: center;
 }
 
+#news .card a:hover{
+  color: orange;
+}
+
 #news .card p{
   margin: 1rem;
   font-size: 20px;
@@ -177,10 +181,13 @@ nav a.active,.menu li:hover{
   color: darkred;
   margin: 1rem;
   font-size: 25px;
+  transition: 0.2s ease;
 }
 
 .box a:hover{
   color: orange;
+  transform: scale(1.1);
+  transition: 0.2s ease;
 }
 
 .box p{
@@ -1158,5 +1165,5 @@ color: orange;
   justify-content: flex-end;
   align-items: end;
   color: orange;
-  font-size: 23px;
+  font-size: 23px;;
 }

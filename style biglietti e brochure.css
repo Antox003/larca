@@ -64,9 +64,9 @@ a.active,.menu li:hover{
 
 /*Biglietti & Brochure*/
 #biglietti-brochure {
-    background: url('https://0.s3.envato.com/files/138478059/eps2014112023166080793.jpg');
-    height: 40vh;
-  }
+  background: url('https://0.s3.envato.com/files/138478059/eps2014112023166080793.jpg');
+  height: 40vh;
+}
    
   #biglietti-brochure .title{
     color: white;
@@ -121,10 +121,13 @@ a.active,.menu li:hover{
     color: darkred;
     margin: 1rem;
     font-size: 25px;
+    transition: 0.2s ease;
   }
 
   .box a:hover{
     color: orange;
+    transform: scale(1.1);
+    transition: 0.2s ease;
   }
   
   .box p{
@@ -149,22 +152,34 @@ a.active,.menu li:hover{
   
   #disponibilita a:hover{
   color: darkred;
+  transform: scale(1.0);
   }
 
 /*Rassegna 94'*/
 #rassegna94{
-    background: url('https://www.wallpapertip.com/wmimgs/25-256665_photo-collection-theatre-stage-wallpaper-theatre-stage.jpg') no-repeat center center/cover;
+    background: url('./LARCA/background/background\ rassegne.jpg') no-repeat center center/cover;
     height: auto;
     flex-direction: row; 
     flex-wrap: wrap;
   }
   
-  #rassegna94 .container .title2{
-    text-align: center;
-    color: white;
+  #rassegna94 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 45px;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  }
+
+  #rassegna94 .container h1{
+    color: white;
+    background: black;
+    width: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   
   .container .title2 .color2{
@@ -222,109 +237,139 @@ a.active,.menu li:hover{
 
 
 /*Rassegna 95'*/
-#biglietti95{
-    background:url('https://www.noteateatro.it/wp-content/uploads/2016/04/sfondo-teatro-3.jpg') no-repeat center center/cover;
+#rassegna95{
+    background:url('./LARCA/background/background\ rassegne.jpg') no-repeat center center/cover;
     height: auto;
   }
   
-  .container .title h1{
-    text-align: center;
-    color: white;
-    font-size: 70px;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-  
-  .container .title .color{
-    color: orange;
-  }
-  
-  .container .subtitle h1{
-    color: white;
-    font-size: 40px;
-    padding-left: 3rem;
-    padding-top: 3rem;
-  }
-  
-  .container .subtitle .color{
-    color: orange;
-  }
-  
-  #biglietti95 .biglietti{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; 
-  }
-  
-  .biglietti .biglietto1 img{
-    padding-top: 1.5rem;
-    max-width: 800px;
-  }
-  
-  .biglietti .biglietto2 img{
-    padding-top: 1.5rem;
-    max-width: 800px;
-  }
-  
-  #subfooter{
-    height: 5vh;
-    background: #333;
-  }
-  
-  #abbonamento{
-    background: darkred;
-    height: auto;
-  }
-  
-  #abbonamento .front-end{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; 
-  }
-  
-  #abbonamento .title h1{
-    color: orange;
-    display: flex;
-    justify-content: center;
-    font-size: 60px;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-  }
-  
-  .abbonamento1 img{
-    max-width: 400px;
-  }
-  
-  .abbonamento2 img{
-    max-width: 400px;
-  }
-  
-  /*Rassegna 96'*/
-  #rassegna96{
-    background: url('https://i.pinimg.com/originals/97/5d/5a/975d5a15d7df9b1b6edfd92af344489d.jpg') no-repeat center center/cover;
-    height: auto;
-  }
-  
-  .biglietti96{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; 
-    padding-bottom: 2rem;
-  }
-  
-  .biglietti96 .biglietto96-1 img{
-    max-width: 750px;
-    padding-top: 7rem;
-  }
-  
-.biglietti96 .biglietto96-2 img{
-    max-width: 750px;
-    padding-top: 7rem;
+#rassegna95 .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+}
+
+#rassegna95 .container h1{
+  color: white;
+  background: black;
+  width: auto;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
   
-  /*Altri inviti*/
+.container .title .color{
+  color: orange;
+}
+  
+.container .subtitle h1{
+  color: white;
+  font-size: 40px;
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+  
+.container .subtitle .color{
+  color: orange;
+}
+  
+#rassegna95 .biglietti{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+}
+  
+.biglietti .biglietto1 img{
+  padding-top: 1.5rem;
+  max-width: 800px;
+}
+  
+.biglietti .biglietto2 img{
+  padding-top: 1.5rem;
+  max-width: 800px;
+}
+  
+#subfooter{
+  height: 5vh;
+  background: #333;
+}
+  
+#abbonamento{
+  background: darkred;
+  height: auto;
+}
+  
+#abbonamento .front-end{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+}
+  
+#abbonamento .title h1{
+  color: orange;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+  
+.abbonamento1 img{
+  max-width: 400px;
+}
+  
+.abbonamento2 img{
+  max-width: 400px;
+}
+  
+/*Rassegna 96'*/
+#rassegna96{
+  background: url('./LARCA/background/background\ rassegne.jpg') no-repeat center center/cover;
+  height: auto;
+}
+  
+#rassegna96 .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+}
+  
+#rassegna96 .container h1{
+  color: white;
+  background: black;
+  width: auto;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.biglietti96{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  padding-bottom: 2rem;
+}
+  
+.biglietti96 .biglietto96-1 img{
+  max-width: 750px;
+  padding-top: 7rem;
+}
+  
+.biglietti96 .biglietto96-2 img{
+  max-width: 750px;
+  padding-top: 7rem;
+}
+  
+/*Altri inviti*/
 #inviti{
-    background: url('https://www.voicebookradio.com/wp-content/uploads/2021/03/cinema-4609877_1280.jpg') no-repeat center center/cover;
+    background: url('./LARCA/background/background\ rassegne.jpg') no-repeat center center/cover;
     height: auto;
 }
 

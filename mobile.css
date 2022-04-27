@@ -33,6 +33,16 @@ transition: all .5s;
   font-size: 40px;
 }
 
+/*HOME CARD ANIMATION*/
+.container .card:hover{
+  transform: scale(1.0);
+}
+
+.box:hover{
+  transform: scale(1.0);
+}
+
+
 /*STORIA-SEZIONE 2*/
 #storia2 .container2 .sinistra2 img{
   display: none;
