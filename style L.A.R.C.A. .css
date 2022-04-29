@@ -1073,7 +1073,109 @@ color: orange;
 }
 
 
+/*DOCUMENTI SPETTACOLI*/
+#documenti{
+  background: darkred;
+  padding-top: 1rem;
+  height: auto;
+}
 
+#documenti .title{
+  display: flex;
+  justify-content: center;
+}
+
+#documenti .title h1{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  background-color: black;
+  width: 900px;
+  border-radius: 10px;
+
+}
+
+#documenti .title h1 .color{
+  color: orange;
+}
+
+#documenti .scuole{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.scuole .scuole-1 img{
+  padding-top: 1rem;
+  max-width: 700px;
+}
+
+.scuole .scuole-2 img{
+  padding-top: 1rem;
+  max-width: 700px;
+}
+
+#documenti .title-2{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+#documenti .title-2 h1{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  background-color: black;
+  width: 700px;
+  border-radius: 10px;
+
+}
+
+#documenti .title-2 h1 .color{
+  color: orange;
+}
+
+#documenti .cont-bigl{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cont-bigl .cont-bigl-1 img{
+  padding-top: 1rem;
+  max-width: 700px;
+}
+
+.cont-bigl .cont-bigl-2 img{
+  padding-top: 1rem;
+  max-width: 700px;
+}
+
+.cont-bigl .cont-bigl-3 img{
+  padding-top: 1rem;
+  max-width: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SubFooter*/
 #subfooter2 h3{
   color: orange;
   font-size: 50px;
@@ -1082,7 +1184,6 @@ color: orange;
   text-align: center;
   padding-bottom: 3px;
 }
-
 
 /*Footer*/
 #footer{

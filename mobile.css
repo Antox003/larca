@@ -371,9 +371,9 @@ padding-bottom: 1rem;
     padding-top: 3rem;
  }
       
- #inviti .invito .descrizione-verticale h2{
-    width: 300px;
-   }
+#inviti .invito .descrizione-verticale h2{
+  width: 300px;
+}
 
 /*Video*/
 /*FORTUNA VIDEO*/
@@ -403,6 +403,48 @@ padding-left: 1rem;
   padding-left: 1rem;
 }
 
-    #subfooter2 h3{
-  font-size: 45px;
+/*DOCUMENTI SPETTACOLI*/
+.scuole .scuole-1 a{
+  display: flex;
+  justify-content: center;
+}
+
+.scuole .scuole-1 a img{
+  max-width: 70%;
+}
+
+.scuole .scuole-2 a{
+  display: flex;
+  justify-content: center;
+}
+
+.scuole .scuole-2 img{
+  max-width: 70%;
+}
+
+.cont-bigl .cont-bigl-1 a{
+  display: flex;
+  justify-content: center;
+}
+
+.cont-bigl .cont-bigl-1 img{
+  max-width: 70%;
+}
+
+.cont-bigl .cont-bigl-2 a{
+  display: flex;
+  justify-content: center;
+}
+
+.cont-bigl .cont-bigl-2 img{
+  max-width: 70%;
+}
+
+.cont-bigl .cont-bigl-3 a{
+  display: flex;
+  justify-content: center;
+}
+
+.cont-bigl .cont-bigl-3 img{
+  max-width: 70%;
 }
