@@ -1077,6 +1077,7 @@ color: orange;
 #documenti{
   background: darkred;
   padding-top: 1rem;
+  padding-bottom: 1.5rem;
   height: auto;
 }
 
@@ -1092,7 +1093,6 @@ color: orange;
   background-color: black;
   width: 900px;
   border-radius: 10px;
-
 }
 
 #documenti .title h1 .color{
@@ -1128,7 +1128,6 @@ color: orange;
   background-color: black;
   width: 700px;
   border-radius: 10px;
-
 }
 
 #documenti .title-2 h1 .color{
@@ -1157,12 +1156,110 @@ color: orange;
 }
 
 
+#documenti .title-3{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
 
+#documenti .title-3 h1{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  background-color: black;
+  width: 700px;
+  border-radius: 10px;
+}
 
+#documenti .title-3 h1 .color{
+  color: orange;
+}
 
+#documenti .min-vario{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
+.min-vario .min-vario-1 img{
+  padding-top: 1rem;
+  max-width: 700px;
+}
 
+.min-vario .min-vario-2 img{
+  padding-top: 1rem;
+  max-width: 700px;
+}
 
+#documenti .title-4{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+#documenti .title-4 h1{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  background-color: black;
+  width: 500px;
+  border-radius: 10px;
+}
+
+#documenti .title-4 h1 .color{
+  color: orange;
+}
+
+#documenti .timbro{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.timbro .timbro-1 img{
+  padding-top: 1rem;
+  max-width: 700px;
+}
+
+.timbro .timbro-2 img{
+  padding-top: 1rem;
+  max-width: 700px;
+}
+
+.timbro .timbro-3 img{
+  padding-top: 1rem;
+  max-width: 700px;
+}
+
+#documenti .title-5{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+#documenti .title-5 h1{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  background-color: black;
+  width: 600px;
+  border-radius: 10px;
+}
+
+#documenti .title-5 h1 .color{
+  color: orange;
+}
+
+#documenti .tesserino{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tesserino .tesserino-1 img{
+  padding-top: 1rem;
+  max-width: 700px;
+}
 
 
 

@@ -448,3 +448,57 @@ padding-left: 1rem;
 .cont-bigl .cont-bigl-3 img{
   max-width: 70%;
 }
+
+.min-vario .min-vario-1 a{
+  display: flex;
+  justify-content: center;
+}
+
+.min-vario .min-vario-1 img{
+  max-width: 70%;
+}
+
+.min-vario .min-vario-2 a{
+  display: flex;
+  justify-content: center;
+}
+
+.min-vario .min-vario-2 img{
+  max-width: 70%;
+}
+
+.timbro .timbro-1 a{
+  display: flex;
+  justify-content: center;
+}
+
+.timbro .timbro-1 img{
+  max-width: 70%;
+}
+
+.timbro .timbro-2 a{
+  display: flex;
+  justify-content: center;
+}
+
+.timbro .timbro-2 img{
+  max-width: 70%;
+}
+
+.timbro .timbro-3 a{
+  display: flex;
+  justify-content: center;
+}
+
+.timbro .timbro-3 img{
+  max-width: 70%;
+}
+
+.tesserino .tesserino-1 a{
+  display: flex;
+  justify-content: center;
+}
+
+.tesserino .tesserino-1 img{
+  max-width: 70%;
+}
