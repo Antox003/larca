@@ -515,12 +515,12 @@ input[name=r]{
 #locandine-background .title h1{
   color: orange;
   background: black;
-  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   width: auto;
-  height: 15vh;
+
   border-radius: 10px;
   text-align: center;
-  font-family: fantasy;
 }
 
 /*Section2 locandine*/
