@@ -65,16 +65,27 @@ a.active,.menu li:hover{
 /*Biglietti & Brochure*/
 #biglietti-brochure {
   background: url('https://0.s3.envato.com/files/138478059/eps2014112023166080793.jpg');
-  height: 40vh;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
 }
    
-  #biglietti-brochure .title{
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 9rem;
-  }
-  
+#biglietti-brochure .title{
+  color: white;
+  background: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#biglietti-brochure .title .color{
+  color: orange;
+}
+
+
   /*Section1*/
   #biglietti{
     display: flex;

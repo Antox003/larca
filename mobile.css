@@ -164,6 +164,16 @@ padding-bottom: 1rem;
     max-width: 320px;
   }
 
+  /*MATERIALE TECNICO*/
+  #materiale{
+    height: 50vh;
+    font-size: 50px;
+  }
+
+  #materiale .title h1{
+    width: auto;
+  }
+  
   /*ALTRO MATERIALE TECNICO*/
   #tecnico #tecnico-1 .tecnico-title{
     font-size: 20px;
@@ -306,6 +316,15 @@ padding-bottom: 1rem;
   }
 
   /*BIGLIETTI E BROCHURE*/
+  #biglietti-brochure{
+    height: 50vh;
+    font-size: 50px;
+  }
+
+  #biglietti-brochure .title h1{
+    width: auto;
+  }
+
   #biglietti .box-biglietti{
     justify-content: space-evenly;
   }
@@ -511,4 +530,13 @@ padding-left: 1rem;
 
 .tesserino .tesserino-1 img{
   max-width: 70%;
+}
+
+/*FOOTER*/
+.copyright{
+  font-size: 20px;
+}
+
+.sviluppo{
+  font-size: 20px;;
 }

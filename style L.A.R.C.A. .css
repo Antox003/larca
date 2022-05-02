@@ -520,7 +520,6 @@ input[name=r]{
   padding-left: 1rem;
   padding-right: 1rem;
   width: auto;
-
   border-radius: 10px;
   text-align: center;
 }
@@ -673,16 +672,23 @@ input[name=r]{
 
 
 /*MATERIALE TECNICO*/
+
 #materiale{
   background:url('./LARCA/background/materiale\ tecnico\ background.jpg') no-repeat center center/cover;
-  height: 50vh;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
 }
 
-#materiale .title{
-  font-size: 50px;
-  display: flex;
-  justify-content: center ;
-  padding-top: 10rem;
+#materiale .title {
+  color: orange;
+  background: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+  text-align: center;
 }
 
 #materiale .title .color{
