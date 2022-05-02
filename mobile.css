@@ -318,7 +318,7 @@ padding-bottom: 1rem;
   /*BIGLIETTI E BROCHURE*/
   #biglietti-brochure{
     height: 50vh;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #biglietti-brochure .title h1{
@@ -407,7 +407,7 @@ padding-bottom: 1rem;
 /*Video*/
 #video-gallery{
   height: 50vh;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #video-gallery .title h1{
