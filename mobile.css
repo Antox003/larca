@@ -72,7 +72,7 @@ padding-bottom: 1rem;
 
   /*VIDEO-GALLERY*/
   #video-gallery .title{
-    font-size: 50px;
+    font-size: 40px;
   }
 
   /*RASSEGNA STAMPA*/
@@ -150,6 +150,7 @@ padding-bottom: 1rem;
   #locandine #locandine-2 .locandina-b img{
     max-width: 320px;
   }
+
   #locandine #locandine-3 .locandina-title{
     color: white;
     font-size: 30px;
@@ -167,7 +168,7 @@ padding-bottom: 1rem;
   /*MATERIALE TECNICO*/
   #materiale{
     height: 50vh;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #materiale .title h1{
@@ -215,7 +216,7 @@ padding-bottom: 1rem;
     max-width: 320px;
   }
 
-  /*MATERIALE TECNICO(SCENOGRAFIE SCARFALIETTO 2)*/
+/*MATERIALE TECNICO(SCENOGRAFIE SCARFALIETTO 2)*/
 #scenografie-scarfalietto .title h1{
   font-size: 50px;
 }

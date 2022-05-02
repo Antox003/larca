@@ -589,7 +589,7 @@ input[name=r]{
 
 /*Rassegna Stampa*/
 #rassegna {
-  background: url('https://www.consulcesi.it/wp-content/uploads/2020/11/rassegna-stampa-header.jpg') no-repeat center center/cover;
+  background: url('./LARCA/background/rassegna\ stampa\ background.jpeg') no-repeat center center/cover;
   height: 40vh;
 }
 
@@ -672,7 +672,6 @@ input[name=r]{
 
 
 /*MATERIALE TECNICO*/
-
 #materiale{
   background:url('./LARCA/background/materiale\ tecnico\ background.jpg') no-repeat center center/cover;
   height: 70vh;
