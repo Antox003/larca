@@ -15,9 +15,8 @@ nav{
 }
 label.logo{
   color: white;
-  padding: 0 30px;
+  padding-left: 0.5rem;
   font-size: 50px;
-  font: bold;
 }
 nav ul{
   float: right;

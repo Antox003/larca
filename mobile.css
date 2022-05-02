@@ -405,6 +405,17 @@ padding-bottom: 1rem;
 }
 
 /*Video*/
+#video-gallery{
+  height: 50vh;
+  font-size: 50px;
+}
+
+#video-gallery .title h1{
+  width: auto;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
 /*FORTUNA VIDEO*/
 
 #fortuna .title{
