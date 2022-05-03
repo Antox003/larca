@@ -34,8 +34,7 @@ a:hover,a.active{
 }
   
 label.logo{
-  padding-left: 0.0rem;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 /*HOME TITLE*/
@@ -48,7 +47,7 @@ label.logo{
   padding-right: 0rem;
 }
 
-/*HOME CARD ANIMATION*/
+/*HOME CARD*/
 .container .card:hover{
   transform: scale(1.0);
 }
@@ -56,7 +55,6 @@ label.logo{
 .box:hover{
   transform: scale(1.0);
 }
-
 
 /*STORIA-SEZIONE 2*/
 #storia2 .container2 .sinistra2 img{
@@ -388,6 +386,10 @@ padding-bottom: 1rem;
   }
 
  /*ALTRI INVITI*/
+ #altri-inviti{
+  font-size: 40px;
+}
+
 #inviti .invito .biglietto img{
    width: 90%;
  }

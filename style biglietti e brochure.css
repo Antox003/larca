@@ -12,16 +12,20 @@ nav{
   background: #333;
   height: 80px;
   width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.1rem;
 }
+
 label.logo{
   color: white;
-  padding-left: 0.5rem;
-  font-size: 50px;
+  font-size: 60px;
 }
+
 nav ul{
   float: right;
   margin-right: 20px;
 }
+
 nav ul li{
   display: inline-block;
   margin: 10px 30px;
@@ -373,37 +377,47 @@ a.active,.menu li:hover{
 }
   
 /*Altri inviti*/
+#altri-inviti{
+  background: url('./LARCA/background/altri\ inviti\ background.jpeg') no-repeat center center/cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+#altri-inviti .title {
+  color: white;
+  background: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#altri-inviti .title .color{
+  color: orange;
+}
+
 #inviti{
-    background: url('./LARCA/background/background\ rassegne.jpg') no-repeat center center/cover;
-    height: auto;
-}
-
-#inviti .contenitore .title {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
-#inviti .contenitore .title .color{
-    color: orange;
+  background: darkred;
 }
 
 #inviti .invito{
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap; 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
 }
 
 #inviti .invito .biglietto img{
-    width: 1000px;
-    padding-top: 1rem;
+  width: 1000px;
+  padding-top: 1rem;
 }
 
 #inviti .invito .descrizione{
-    color: white;
-    font-size: 30px;
-    padding-top: 9rem;
+  color: white;
+  font-size: 30px;
+  padding-top: 9rem;
 }
 
 #inviti .invito .descrizione h2{
@@ -601,14 +615,14 @@ input[name=r]{
 
 .copyright{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding-top: 5rem;
   font-size: 23px;
 }
 
 .sviluppo{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: end;
   color: orange;
   font-size: 23px;

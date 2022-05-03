@@ -8,16 +8,20 @@ nav{
   background: #333;
   height: 80px;
   width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.1rem;
 }
+
 label.logo{
   color: white;
-  padding-left: 0.5rem;
-  font-size: 50px;
+  font-size: 60px;
 }
+
 nav ul{
   float: right;
   margin-right: 20px;
 }
+
 nav ul li{
   display: inline-block;
   margin: 10px 30px;
@@ -1023,13 +1027,13 @@ margin:0 auto;
   color: orange;
   text-align: center;
   padding-top: 1.5rem;
-  }
+}
   
-  #trama-lettere .trama p{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-  }
+#trama-lettere .trama p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
 
 #info10 {
   height: 30vh;
@@ -1099,13 +1103,13 @@ margin:0 auto;
   color: orange;
   text-align: center;
   padding-top: 1.5rem;
-  }
+}
   
-  #scuse-saverio .trama p{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-  }
+#scuse-saverio .trama p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
 
 /*BACKSTAGE DOJE MARITE MBRUGLUNE*/
 #backstage-marite{
@@ -1206,14 +1210,14 @@ margin:0 auto;
 
 .copyright{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding-top: 5rem;
   font-size: 23px;
 }
 
 .sviluppo{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: end;
   color: orange;
   font-size: 23px;
