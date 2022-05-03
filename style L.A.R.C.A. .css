@@ -15,7 +15,7 @@ nav{
 }
 
 label.logo{
-  padding-left: 0.5rem;
+  padding-left: rem;
   color: white;
   font-size: 60px;
 }
@@ -85,6 +85,8 @@ nav a.active,.menu li:hover{
   width: auto;
   border-radius: 10px;
   text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /*Section2*/

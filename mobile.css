@@ -43,6 +43,11 @@ label.logo{
   font-size: 40px;
 }
 
+#showcase .container h1{
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
 /*HOME CARD ANIMATION*/
 .container .card:hover{
   transform: scale(1.0);
@@ -336,9 +341,13 @@ padding-bottom: 1rem;
 
 
      /*RASSEGNA 94*/
-    .biglietti94 .biglietto94-1 img{
-      max-width: 70%;
-    }
+#abbonamento2 .title{
+  font-size: 35px;  
+}
+
+.biglietti94 .biglietto94-1 img{
+  max-width: 70%;
+}
     
     .biglietti94 .biglietto94-2 img{
       max-width: 70%;
