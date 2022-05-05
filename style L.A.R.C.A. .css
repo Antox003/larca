@@ -654,7 +654,7 @@ input[name=r]{
 #giornali #giornale-2 .giornale-title{
   color: white;
   font-size: 30px;
-  width: 350px;
+  width: auto;
   text-align: center;
   background: #333;
   border-radius: 10px;
