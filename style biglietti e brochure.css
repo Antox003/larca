@@ -67,7 +67,7 @@ a.active,.menu li:hover{
 
 /*Biglietti & Brochure*/
 #biglietti-brochure {
-  background: url('https://0.s3.envato.com/files/138478059/eps2014112023166080793.jpg');
+  background: url('./LARCA/background/bigliettibrochure\ background.webp');
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -171,7 +171,7 @@ a.active,.menu li:hover{
 
 /*Rassegna 94'*/
 #rassegna94{
-    background: url('./LARCA/background/background\ rassegne.jpg') no-repeat center center/cover;
+    background: url('./LARCA/background/background\ rassegne.webp') no-repeat center center/cover;
     height: auto;
     flex-direction: row; 
     flex-wrap: wrap;
@@ -251,7 +251,7 @@ a.active,.menu li:hover{
   
 /*Rassegna 95'*/
 #rassegna95{
-    background:url('./LARCA/background/background\ rassegne.jpg') no-repeat center center/cover;
+    background:url('./LARCA/background/background\ rassegne.webp') no-repeat center center/cover;
     height: auto;
   }
   
@@ -336,7 +336,7 @@ a.active,.menu li:hover{
   
 /*Rassegna 96'*/
 #rassegna96{
-  background: url('./LARCA/background/background\ rassegne.jpg') no-repeat center center/cover;
+  background: url('./LARCA/background/background\ rassegne.webp') no-repeat center center/cover;
   height: auto;
 }
   
@@ -378,7 +378,7 @@ a.active,.menu li:hover{
   
 /*Altri inviti*/
 #altri-inviti{
-  background: url('./LARCA/background/altri\ inviti\ background.jpeg') no-repeat center center/cover;
+  background: url('./LARCA/background/altri\ inviti\ background.webp') no-repeat center center/cover;
   height: 50vh;
   display: flex;
   justify-content: center;
