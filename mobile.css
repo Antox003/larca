@@ -79,14 +79,13 @@ padding-bottom: 1rem;
   }
 
   /*RASSEGNA STAMPA*/
-  #rassegna {
-    height: auto;
-    padding-bottom: 1rem;
+  #rassegna{
+    height: 50vh;
+    font-size: 40px;
   }
-  
-  #rassegna .title{
-    font-size:40px;
-    padding-top: 3rem;
+
+  #rassegna .title h1{
+    width: auto;
   }
 
   #giornali #giornale-1 .giornale-a img{
@@ -178,7 +177,7 @@ padding-bottom: 1rem;
     width: auto;
   }
   
-  /*ALTRO MATERIALE TECNICO*/
+/*ALTRO MATERIALE TECNICO*/
   #tecnico #tecnico-1 .tecnico-title{
     font-size: 20px;
     width: 200px;
@@ -236,7 +235,7 @@ padding-bottom: 1rem;
     max-width: 320px;
   }
 
-  /*MATERIALE TECNICO(SCENOGRAFIE FORTUNA)*/
+/*MATERIALE TECNICO(SCENOGRAFIE FORTUNA)*/
   #tecnico-fortuna #tecnico-1 .tecnico-a img{
     max-width: 320px;
   }
@@ -294,7 +293,7 @@ padding-bottom: 1rem;
     max-width: 320px;
   }
 
-  /*MATERIALE TECNICO(SCENOGRAFIE MINISTRO 1)*/
+/*MATERIALE TECNICO(SCENOGRAFIE MINISTRO 1)*/
   #tecnico-ministro #tecnico-1 .tecnico-a img{
     max-width: 320px;
   }
@@ -429,7 +428,6 @@ padding-bottom: 1rem;
 }
 
 /*FORTUNA VIDEO*/
-
 #fortuna .title{
 font-size: 40px;
 padding-left: 1rem;

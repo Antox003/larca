@@ -599,14 +599,20 @@ input[name=r]{
 /*Rassegna Stampa*/
 #rassegna {
   background: url('./LARCA/background/rassegna\ stampa\ background.webp') no-repeat center center/cover;
-  height: 40vh;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
 }
 
 #rassegna .title{
   color: white;
+  background: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
   text-align: center;
-  font-size:60px;
-  padding-top: 5rem;
 }
 
 #rassegna .title .color{
