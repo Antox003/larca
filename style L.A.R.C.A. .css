@@ -209,7 +209,7 @@ nav a.active,.menu li:hover{
 
 /* Galleria */
 #gallery {
-  background:url('./LARCA/background/camera\ roll.jpeg') no-repeat center center/cover;
+  background:url('./LARCA/background/camera-roll_1.webp') no-repeat center center/cover;
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -515,7 +515,7 @@ input[name=r]{
 
 /*LOCANDINE*/
 #locandine-background{
-  background: url('./LARCA/background/locandine\ background.jpg') no-repeat center center/cover;
+  background: url('./LARCA/background/locandine-2.webp') no-repeat center center/cover;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -682,7 +682,7 @@ input[name=r]{
 
 /*MATERIALE TECNICO*/
 #materiale{
-  background:url('./LARCA/background/materiale\ tecnico\ background.jpg') no-repeat center center/cover;
+  background:url('./LARCA/background/materiale-tecnico-background.webp') no-repeat center center/cover;
   height: 70vh;
   display: flex;
   justify-content: center;
