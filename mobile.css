@@ -318,71 +318,86 @@ padding-bottom: 1rem;
     max-width: 320px;
   }
 
-  /*BIGLIETTI E BROCHURE*/
-  #biglietti-brochure{
-    height: 50vh;
-    font-size: 40px;
-  }
+/*BIGLIETTI E BROCHURE*/
+#biglietti-brochure{
+  height: 50vh;
+  font-size: 40px;
+}
 
-  #biglietti-brochure .title h1{
-    width: auto;
-  }
+#biglietti-brochure .title h1{
+  width: auto;
+}
 
-  #biglietti .box-biglietti{
-    justify-content: space-evenly;
-  }
+#biglietti .box-biglietti{
+  justify-content: space-evenly;
+}
 
-  #biglietti .box-biglietti .box{
-    margin-left: 0rem;
-    }
+#biglietti .box-biglietti .box{
+  margin-left: 0rem;
+}
 
 
-     /*RASSEGNA 94*/
-#abbonamento2 .title{
-  font-size: 35px;  
+/*RASSEGNA 94*/
+.biglietti94 .biglietti94-1{
+  display: flex;
+  justify-content: center;
 }
 
 .biglietti94 .biglietto94-1 img{
   max-width: 70%;
 }
-    
-    .biglietti94 .biglietto94-2 img{
-      max-width: 70%;
-    }
-    
-    .biglietti94-b img{
-      max-width: 70%;
-    }
 
-     /*RASSEGNA 95*/
-    .biglietti .biglietto1 img{
-      max-width: 70%;
-    }
-    
-    .biglietti .biglietto2 img{
-      max-width: 70%;
-    }
+.biglietti94 .biglietti94-2{
+  display: flex;
+  justify-content: center;
+}
 
-    #abbonamento .front-end{
-     padding-left: 1rem;
-    }
-
-    .abbonamento1 img{
-      max-width: 70%;
-    }
+.biglietti94 .biglietto94-2 img{
+  max-width: 70%;
+}
     
-    .abbonamento2 img{
-      max-width: 70%;
-    }
+.biglietti94 .biglietti94-2{
+  display: flex;
+  justify-content: center;
+}
+
+.biglietti94-3 img{
+  max-width: 70%;
+}
+
+#abbonamento2 .title{
+  font-size: 35px;  
+}
+
+/*RASSEGNA 95*/
+.biglietti .biglietto1 img{
+   max-width: 70%;
+}
+    
+.biglietti .biglietto2 img{
+  max-width: 70%;
+}
+
+#abbonamento .front-end{
+  padding-left: 1rem;
+}
+
+.abbonamento1 img{
+  max-width: 70%;
+}
+    
+.abbonamento2 img{
+  max-width: 70%;
+}
 
    /*RASSEGNA 96*/
-    .biglietti96 .biglietto96-1 img{
-      max-width: 90%;
-    }
+.biglietti96 .biglietto96-1 img{
+  max-width: 90%;
+}
     
-  .biglietti96 .biglietto96-2 img{
-      max-width: 90%;
-  }
+.biglietti96 .biglietto96-2 img{
+   max-width: 90%;
+}
 
  /*ALTRI INVITI*/
  #altri-inviti{
@@ -390,26 +405,26 @@ padding-bottom: 1rem;
 }
 
 #inviti .invito .biglietto img{
-   width: 90%;
- }
+  width: 90%;
+}
       
 #inviti .invito .descrizione{
   font-size: 20px;
-   padding-top: 3rem;
-  }
-      
- #inviti .invito .descrizione h2{
-   width: 300px;
+  padding-top: 3rem;
 }
       
- #inviti .invito .biglietto-verticale img{
-   width: 90%;
-   }
+#inviti .invito .descrizione h2{
+  width: 300px;
+}
+      
+#inviti .invito .biglietto-verticale img{
+  width: 90%;
+}
       
 #inviti .invito .descrizione-verticale{
   font-size: 20px;
-    padding-top: 3rem;
- }
+  padding-top: 3rem;
+}
       
 #inviti .invito .descrizione-verticale h2{
   width: 300px;
@@ -446,7 +461,7 @@ padding-left: 1rem;
 #scarfalietto2 .title{
   font-size: 40px;
   padding-left: 1rem;
-  }
+}
 
 #lettere .title{
   font-size: 40px;
