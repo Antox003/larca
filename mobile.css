@@ -68,43 +68,53 @@ label.logo{
 padding-bottom: 1rem;
 }
 
-  /*GALLERIA */
-  #gallery .title{
-    font-size: 40px;
-  }
+/*GALLERIA */
+#gallery .title{
+  font-size: 40px;
+}
 
-  /*VIDEO-GALLERY*/
-  #video-gallery .title{
-    font-size: 40px;
-  }
+.container-foto .card .imgBx{
+  width: 250px;
+  left: 10px;
+}
 
-  /*RASSEGNA STAMPA*/
-  #rassegna{
-    height: 50vh;
-    font-size: 40px;
-  }
+/*VIDEO-GALLERY*/
+#video-gallery .title{
+  font-size: 40px;
+}
 
-  #rassegna .title h1{
-    width: auto;
-  }
+.container-spettacoli .card .imgBx{
+  width: 250px;
+  left: 10px;
+}
 
-  #giornali #giornale-1 .giornale-a img{
-    max-width: 320px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
+/*RASSEGNA STAMPA*/
+#rassegna{
+  height: 50vh;
+  font-size: 40px;
+}
 
-  #giornali #giornale-2 .giornale-b img{
-    max-width: 320px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
+#rassegna .title h1{
+  width: auto;
+}
 
-  #giornali #giornale-3 .giornale-c img{
-    max-width: 320px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
+#giornali #giornale-1 .giornale-a img{
+  max-width: 320px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#giornali #giornale-2 .giornale-b img{
+  max-width: 320px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#giornali #giornale-3 .giornale-c img{
+  max-width: 320px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
   
   #giornali #giornale-1 .giornale-title{
     margin-left: 0rem;

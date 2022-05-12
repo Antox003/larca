@@ -128,27 +128,27 @@ a.active,.menu li:hover{
   }
   
   .container-spettacoli .card:hover{
-    height: 420px;
+    height: 400px;
   }
   
   .container-spettacoli .card .imgBx{
     position: relative;
     width: 260px;
-    height: 200px;
+    height: 150px;
     top: -60px;
     left: 20px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   }
   
   .container-spettacoli .card .imgBx img{
     max-width: 100%;
-    border-radius: 4px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   }
   
   .container-spettacoli .card .paragrafo{
     position: relative;
     margin-top: -140px;
-    padding: 10px 15px;
+    padding: 60px 15px;
     text-align: center;
     color: darkred;
     font-size: 18px;
@@ -207,27 +207,27 @@ a.active,.menu li:hover{
   }
   
   .container-backstage .card:hover{
-    height: 420px;
+    height: 400px;
   }
   
   .container-backstage .card .imgBx{
     position: relative;
     width: 260px;
-    height: 200px;
+    height: 150px;
     top: -60px;
     left: 20px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   }
   
   .container-backstage .card .imgBx img{
     max-width: 100%;
-    border-radius: 4px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   }
   
   .container-backstage .card .paragrafo{
     position: relative;
     margin-top: -140px;
-    padding: 10px 15px;
+    padding: 60px 15px;
     text-align: center;
     color: darkred;
     font-size: 18px;
