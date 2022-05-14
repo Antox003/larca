@@ -176,7 +176,6 @@ a.active,.menu li:hover{
     color: orange;
   }
   
-
   
   /*BACKSTAGE*/
   #backstage{
@@ -257,14 +256,24 @@ a.active,.menu li:hover{
     background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
     height: auto;
   }
-  
-  #fortuna .title{
-    color: white;
+
+  #fortuna .container{
     display: flex;
     justify-content: center;
     font-size: 50px;
-    padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  #fortuna .title{
+    color: white;
+    background: black;
+    width: auto;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   
   #fortuna .title .color{
@@ -335,15 +344,25 @@ a.active,.menu li:hover{
     height: auto;
   }
   
-  #eduardo .title{
-    color: white;
+  #eduardo .container{
     display: flex;
     justify-content: center;
     font-size: 50px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
-  
+    
+  #eduardo .title{
+    color: white;
+    background: black;
+    width: auto;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   #eduardo .title .color{
     color: orange;
   }
@@ -408,19 +427,29 @@ a.active,.menu li:hover{
   }
   
   /*SCARFALIETTO 1*/
-  #scarfalietto{
-    background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
-    height: auto;
-  }
+#scarfalietto{
+  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  height: auto;
+}
+
+#scarfalietto .container{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
   
-  #scarfalietto .title{
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
+#scarfalietto .title{
+  color: white;
+  background: black;
+  width: auto;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
   
   #scarfalietto .title .color{
     color: orange;
@@ -492,15 +521,25 @@ a.active,.menu li:hover{
     height: auto;
   }
   
-  #quattrini .title{
-    color: white;
+  #quattrini .container{
     display: flex;
     justify-content: center;
     font-size: 50px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
-  
+    
+  #quattrini .title{
+    color: white;
+    background: black;
+    width: auto;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   #quattrini .title .color{
     color: orange;
   }
@@ -570,13 +609,23 @@ a.active,.menu li:hover{
     height: auto;
   }
   
-  #marite .title{
-    color: white;
+  #marite .container{
     display: flex;
     justify-content: center;
     font-size: 50px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+    
+  #marite .title{
+    color: white;
+    background: black;
+    width: auto;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   
   #marite .title .color{
@@ -596,64 +645,74 @@ a.active,.menu li:hover{
     flex-wrap: wrap;
   }
 
-  #trama-marite{
-      background: darkred;
-      height: auto;
-  }
+#trama-marite{
+  background: darkred;
+  height: auto;
+}
 
-  #trama-marite .trama h2{
-    font-size: 50px;
-    color: orange;
-    text-align: center;
-    padding-top: 1.5rem;
-    }
+#trama-marite .trama h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+ }
     
-    #trama-marite .trama p{
-      color: white;
-      text-align: center;
-      font-size: 30px;
-    }
+#trama-marite .trama p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
   
-    #info5 .data-ora h2{
-      font-size: 50px;
-      color: orange;
-      text-align: center;
-      padding-top: 1.5rem;
-    }
+#info5 .data-ora h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+}
     
-    #info5 .data-ora p{
-      color: white;
-      text-align: center;
-      font-size: 30px;
-    }
+#info5 .data-ora p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
   
-  #info5 .locandina-marite h2{
-   text-align: center;
-   color: orange;
-   font-size: 50px;
-   padding-top: 3rem;
-   padding-bottom: 2rem;
-  }
+#info5 .locandina-marite h2{
+  text-align: center;
+  color: orange;
+  font-size: 50px;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
   
-  #info5 .locandina-marite img{
-  max-width: 80%;
-  display: block;
-  margin:0 auto; 
-  }
+#info5 .locandina-marite img{
+max-width: 80%;
+display: block;
+margin:0 auto; 
+}
   
 /*SCARFALIETTO 2*/
 #scarfalietto2{
-    background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
-    height: auto;
-  }
+  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  height: auto;
+}
   
-  #scarfalietto2 .title{
-    color: white;
+  #scarfalietto2 .container{
     display: flex;
     justify-content: center;
     font-size: 50px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+    
+  #scarfalietto2 .title{
+    color: white;
+    background: black;
+    width: auto;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   
   #scarfalietto2 .title .color{
@@ -666,9 +725,9 @@ a.active,.menu li:hover{
     padding-bottom: 1rem;
   }
 
-  #trama-scarfalietto2{
-    height: auto;
-    background: darkred;
+#trama-scarfalietto2{
+  height: auto;
+  background: darkred;
 }
 
 #trama-scarfalietto2 .trama h2{
@@ -725,13 +784,23 @@ a.active,.menu li:hover{
   height: auto;
 }
 
-#pecore .title{
-  color: white;
+#pecore .container{
   display: flex;
   justify-content: center;
   font-size: 50px;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+  
+#pecore .title{
+  color: white;
+  background: black;
+  width: auto;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #pecore .title .color{
@@ -807,19 +876,28 @@ margin:0 auto;
 }
 
 /*ministro video*/
-
 #ministro{
   background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
   height: auto;
 }
 
-#ministro .title{
-  color: white;
+#ministro .container{
   display: flex;
   justify-content: center;
   font-size: 50px;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+  
+#ministro .title{
+  color: white;
+  background: black;
+  width: auto;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #ministro .title .color{
@@ -842,8 +920,8 @@ margin:0 auto;
 }
 
 #trama-ministro{
-    height: auto;
-    background: darkred   ;
+  height: auto;
+  background: darkred   ;
 }
 
 #trama-ministro .trama h2{
@@ -851,13 +929,13 @@ margin:0 auto;
   color: orange;
   text-align: center;
   padding-top: 1.5rem;
-  }
+}
   
-  #trama-ministro .trama p{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-  }
+#trama-ministro .trama p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
 
 #info8 {
   height: auto;
@@ -901,13 +979,23 @@ margin:0 auto;
   height: auto;
 }
 
-#sinneco .title{
-  color: white;
+#sinneco .container{
   display: flex;
   justify-content: center;
   font-size: 50px;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+  
+#sinneco .title{
+  color: white;
+  background: black;
+  width: auto;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #sinneco .title .color{
@@ -989,13 +1077,23 @@ margin:0 auto;
   height: auto;
 }
 
-#lettere .title{
-  color: white;
+#lettere .container{
   display: flex;
   justify-content: center;
   font-size: 50px;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+  
+#lettere .title{
+  color: white;
+  background: black;
+  width: auto;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #lettere .title .color{
@@ -1076,13 +1174,23 @@ margin:0 auto;
   height: 100vh;
 }
 
-#scuse .title{
-  color: white;
+#scuse .container{
   display: flex;
   justify-content: center;
   font-size: 50px;
-  padding-top: 1.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+  
+#scuse .title{
+  color: white;
+  background: black;
+  width: auto;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #scuse .title .color{
@@ -1113,26 +1221,45 @@ margin:0 auto;
 
 /*BACKSTAGE DOJE MARITE MBRUGLUNE*/
 #backstage-marite{
-  background: darkred;
+  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  height: auto;
 }
 
-#marite .video{
+#backstage-marite .container{
   display: flex;
   justify-content: center;
+  font-size: 50px;
+  padding-top: 1rem;
   padding-bottom: 1rem;
 }
+  
+#backstage-marite .title{
+  color: white;
+  background: black;
+  width: auto;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+} 
 
-#backstage-marite .trama h2{
+#backstage-marite .video{
+  display: flex;
+  justify-content: center;
+}
+
+#info .trama h2{
   font-size: 50px;
   color: orange;
   text-align: center;
   padding-top: 1.5rem;
 }
   
-#backstage-marite .trama p{
-    color: white;
-    text-align: center;
-    font-size: 30px;
+#info .trama p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
 }
 
 

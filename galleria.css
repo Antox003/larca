@@ -292,85 +292,84 @@ nav{
 
 /*Footer*/
 #footer{
-    height: auto;
-    background: #333;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap:  wrap;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-  }
+  height: auto;
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:  wrap;
+  padding-top: 2rem;
+  padding-bottom: 1rem;}
   
-  #footer h3{
-    color: orange;
-  }
+#footer h3{
+  color: orange;
+}
   
-  .contatti h3{
-    padding-left: 70px;
-    padding-top: 10px;
-  }
+.contatti h3{
+  padding-left: 70px;
+  padding-top: 10px;
+}
   
-  .contatti{
-    font-size: 20px;
-  }
+.contatti{
+  font-size: 20px;
+}
   
-  .contatti p{
-    padding-left: 25px;
-  }
+.contatti p{
+  padding-left: 25px;
+}
   
-  .contatti p a{
-    color: white;
-  }
+.contatti p a{
+  color: white;
+}
   
-  .contatti p a:hover{
-    color: orange;
-    transform: scale(1.1);
-  }
+.contatti p a:hover{
+  color: orange;
+  transform: scale(1.1);
+}
   
-  .contatti img{
-    max-width: 45px;
-  }
+.contatti img{
+  max-width: 45px;
+}
   
-  .contatti .facebook{
-    display: flex;
-    align-items: center;
-  }
+.contatti .facebook{
+  display: flex;
+  align-items: center;
+}
   
-  .contatti .facebook a{
-    padding-left: 1rem;
-    color: white;
-  }
+.contatti .facebook a{
+  padding-left: 1rem;
+  color: white;
+}
   
-  .contatti .facebook a:hover{
-    color: orange;
-    transform: scale(1.1);
-  }
+.contatti .facebook a:hover{
+  color: orange;
+  transform: scale(1.1);
+}
   
-  .dedica {
-    display: flex;
-    justify-content: flex-end;
-    text-align: center;
-    font-size: 23px;
-    padding-top: 3rem;
-  }
+.dedica{
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 3rem;
+}
   
-  .dedica .color{
-    color: orange;
-  }
+.dedica .color{
+  color: orange;
+ }
   
-  .copyright{
-    display: flex;
-    justify-content: center;
-    padding-top: 5rem;
-    font-size: 23px;
-  }
+.copyright{
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  font-size: 23px;
+}
   
-  .sviluppo{
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    color: orange;
-    font-size: 23px;;
-  }
+.sviluppo{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: orange;
+  font-size: 23px;;
+}
   
