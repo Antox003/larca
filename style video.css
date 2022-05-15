@@ -63,7 +63,7 @@ a.active,.menu li:hover{
 /*Video*/
 /*Title*/
 #video-gallery{
-  background: url('https://www.ilcinemaincasa.it/wp-content/uploads/2020/09/cinema-01.jpg') no-repeat top center/cover;
+  background: url('./LARCA/background/background-video_gallery.webp') no-repeat top center/cover;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -253,7 +253,7 @@ a.active,.menu li:hover{
   
   /*Fortuna con la effe maiuscola*/
   #fortuna{
-    background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+    background: url('./LARCA/background/background-video.webp');
     height: auto;
   }
 
@@ -340,7 +340,7 @@ a.active,.menu li:hover{
   
   /*SE QUESTO E' EDUARDO*/
   #eduardo{
-    background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+    background: url('./LARCA/background/background-video.webp');
     height: auto;
   }
   
@@ -363,9 +363,9 @@ a.active,.menu li:hover{
     padding-right: 1rem;
   }
 
-  #eduardo .title .color{
-    color: orange;
-  }
+#eduardo .title .color{
+  color: orange;
+}
   
 #eduardo .video{
   display: flex;
@@ -373,23 +373,23 @@ a.active,.menu li:hover{
   padding-bottom: 1rem;
 }
 
-  #trama-eduardo{
-      height: auto;
-      background: darkred   ;
-  }
+#trama-eduardo{
+    height: auto;
+    background: darkred   ;
+}
 
-  #trama-eduardo .trama h2{
-    font-size: 50px;
-    color: orange;
-    text-align: center;
-    padding-top: 1.5rem;
-    }
+#trama-eduardo .trama h2{
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  padding-top: 1.5rem;
+}
     
-    #trama-eduardo .trama p{
-      color: white;
-      text-align: center;
-      font-size: 30px;
-    }
+#trama-eduardo .trama p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
   
   #info2 {
     height: auto;
@@ -426,9 +426,9 @@ a.active,.menu li:hover{
   margin:0 auto;
   }
   
-  /*SCARFALIETTO 1*/
+/*SCARFALIETTO 1*/
 #scarfalietto{
-  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  background: url('./LARCA/background/background-video.webp');
   height: auto;
 }
 
@@ -472,22 +472,22 @@ a.active,.menu li:hover{
   color: orange;
   text-align: center;
   padding-top: 1.5rem;
-  }
+}
   
-  #trama-scarfalietto1 .trama p{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-  }
+#trama-scarfalietto1 .trama p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
   
-  #info3 {
-    height: auto;
-    background: darkred;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-top: 1rem;
-  }
+#info3 {
+  height: auto;
+  background: darkred;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
   
   #info3 .data-ora h2{
     font-size: 50px;
@@ -517,7 +517,7 @@ a.active,.menu li:hover{
   
   /*A CHE SERVONO QUESTI QUATTRINI*/
   #quattrini{
-    background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+    background: url('./LARCA/background/background-video.webp');
     height: auto;
   }
   
@@ -558,9 +558,9 @@ a.active,.menu li:hover{
     flex-wrap: wrap;
   }
   
-  #trama-quattrini{
-    height: auto;
-    background: darkred   ;
+#trama-quattrini{
+  height: auto;
+  background: darkred;
 }
 
 #trama-quattrini .trama h2{
@@ -605,7 +605,7 @@ a.active,.menu li:hover{
   
   /*DOJE MARITE MBRUGLUNE*/
   #marite{
-    background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+    background: url('./LARCA/background/background-video.webp');
     height: auto;
   }
   
@@ -692,17 +692,17 @@ margin:0 auto;
   
 /*SCARFALIETTO 2*/
 #scarfalietto2{
-  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  background: url('./LARCA/background/background-video.webp');
   height: auto;
 }
   
-  #scarfalietto2 .container{
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
+#scarfalietto2 .container{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
     
   #scarfalietto2 .title{
     color: white;
@@ -780,7 +780,7 @@ margin:0 auto;
   
 /*Tre pecore viziose*/
 #pecore{
-  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  background: url('./LARCA/background/background-video.webp');
   height: auto;
 }
 
@@ -877,7 +877,7 @@ margin:0 auto;
 
 /*ministro video*/
 #ministro{
-  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  background: url('./LARCA/background/background-video.webp');
   height: auto;
 }
 
@@ -975,7 +975,7 @@ margin:0 auto;
 
 /*sinneco video*/
 #sinneco{
-  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  background: url('./LARCA/background/background-video.webp');
   height: auto;
 }
 
@@ -1073,7 +1073,7 @@ margin:0 auto;
 
 /*lettere video*/
 #lettere{
-  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  background: url('./LARCA/background/background-video.webp');
   height: auto;
 }
 
@@ -1170,7 +1170,7 @@ margin:0 auto;
 
 /*SCUSE SAVERIO*/
 #scuse{
-  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  background: url('./LARCA/background/background-video.webp');
   height: 100vh;
 }
 
@@ -1221,7 +1221,7 @@ margin:0 auto;
 
 /*BACKSTAGE DOJE MARITE MBRUGLUNE*/
 #backstage-marite{
-  background: url('https://www.free-video-footage.com/wp-content/uploads/2018/05/free%20movie%20video%20menue%20background%20001%201920%20x1080.jpg');
+  background: url('./LARCA/background/background-video.webp');
   height: auto;
 }
 

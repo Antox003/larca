@@ -208,7 +208,6 @@ nav a.active,.menu li:hover{
 
 /*Storia*/
 /*Section1*/
-
 #storia .container{
   background: darkred;
   height: auto;
@@ -238,7 +237,6 @@ nav a.active,.menu li:hover{
 }
 
 /*Section2*/
-
 #storia2 .container2 {
   background: rgb(87, 86, 86);
   display: flex;
@@ -409,8 +407,13 @@ nav a.active,.menu li:hover{
   text-align: center;
   background: #333;
   border-radius: 10px;
-  margin-left: 7rem;
 }
+
+#giornali #giornale-1 .container-title{
+  display: flex;
+  justify-content: center;
+}
+
 
 #giornali #giornale-1 .giornale-a img{
   max-width: 500px;
@@ -421,16 +424,19 @@ nav a.active,.menu li:hover{
 #giornali #giornale-2 .giornale-title{
   color: white;
   font-size: 30px;
-  width: auto;
+  width: 370px;
   text-align: center;
   background: #333;
   border-radius: 10px;
-  padding-top: 1rem;
-  margin-left: 5rem;
+}
+
+#giornali #giornale-2 .container-title{
+  display: flex;
+  justify-content: center;
 }
 
 #giornali #giornale-2 .giornale-b img{
-  max-width: 500px;
+  max-width: 600px;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -442,8 +448,11 @@ nav a.active,.menu li:hover{
   text-align: center;
   background: #333;
   border-radius: 10px;
-  padding-top: 1rem;
-  margin-left: 3rem;
+}
+
+#giornali #giornale-3 .container-title{
+  display: flex;
+  justify-content: center;
 }
 
 #giornali #giornale-3 .giornale-c img{
@@ -452,6 +461,65 @@ nav a.active,.menu li:hover{
   padding-bottom: 1rem;
 }
 
+#giornali #giornale-4 .giornale-title{
+  color: white;
+  font-size: 30px;
+  width: 250px;
+  text-align: center;
+  background: #333;
+  border-radius: 10px;
+}
+
+#giornali #giornale-4 .container-title{
+  display: flex;
+  justify-content: center;
+}
+
+#giornali #giornale-4 .giornale-d img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#giornali #giornale-5 .giornale-title{
+  color: white;
+  font-size: 30px;
+  width: 250px;
+  text-align: center;
+  background: #333;
+  border-radius: 10px;
+}
+
+#giornali #giornale-5 .container-title{
+  display: flex;
+  justify-content: center;
+}
+
+#giornali #giornale-5 .giornale-e img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#giornali #giornale-6 .giornale-title{
+  color: white;
+  font-size: 30px;
+  width: 250px;
+  text-align: center;
+  background: #333;
+  border-radius: 10px;
+}
+
+#giornali #giornale-6 .container-title{
+  display: flex;
+  justify-content: center;
+}
+
+#giornali #giornale-6 .giornale-f img{
+  max-width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
 /*MATERIALE TECNICO*/
 #materiale{
@@ -860,7 +928,6 @@ color: orange;
   padding-top: 1.5rem;
   padding-bottom: 5.5rem;
 }
-
 
 /*DOCUMENTI SPETTACOLI*/
 #documenti{

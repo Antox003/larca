@@ -110,10 +110,19 @@ padding-bottom: 1rem;
   width: auto;
 }
 
+#giornali{
+  display: block;
+}
+
 #giornali #giornale-1 .giornale-a img{
   max-width: 320px;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+#giornali #giornale-1 .container-giornale{
+  display: flex;
+  justify-content: center;
 }
 
 #giornali #giornale-2 .giornale-b img{
@@ -122,82 +131,113 @@ padding-bottom: 1rem;
   padding-bottom: 1rem;
 }
 
+#giornali #giornale-2 .container-giornale{
+  display: flex;
+  justify-content: center;
+}
+
 #giornali #giornale-3 .giornale-c img{
   max-width: 320px;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+#giornali #giornale-3 .container-giornale{
+  display: flex;
+  justify-content: center;
+}
+
+#giornali #giornale-4 .giornale-d img{
+  max-width: 320px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#giornali #giornale-4 .container-giornale{
+  display: flex;
+  justify-content: center;
+}
+
+#giornali #giornale-5 .giornale-e img{
+  max-width: 320px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#giornali #giornale-5 .container-giornale{
+  display: flex;
+  justify-content: center;
+}
+
+#giornali #giornale-6 .giornale-f img{
+  max-width: 320px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#giornali #giornale-6 .container-giornale{
+  display: flex;
+  justify-content: center;
+}
+
+
+/*LOCANDINE*/
+#locandine-background{
+  height: 50vh;
+  font-size: 40px;
+}
+
+#locandine #locandine-1 .locandina-title{
+  color: white;
+  font-size: 30px;
+  width: 300px;
+  text-align: center;
+  background: #333;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
   
-  #giornali #giornale-1 .giornale-title{
-    margin-left: 0rem;
-  }
+#locandine #locandine-1 .locandina-a img{
+  max-width: 320px;
+}
 
-  #giornali #giornale-2 .giornale-title{
-    margin-left: 0rem;
-  }
-
-  #giornali #giornale-3 .giornale-title{
-    margin-left: 0rem;
-    width: 250px;
-  }
-
-  /*LOCANDINE*/
-  #locandine-background{
-    height: 50vh;
-    font-size: 40px;
-  }
-
-  #locandine #locandine-1 .locandina-title{
-    color: white;
-    font-size: 30px;
-    width: 300px;
-    text-align: center;
-    background: #333;
-    border-radius: 10px;
-    padding-top: 1rem;
-  }
+#locandine #locandine-2 .locandina-title{
+  color: white;
+  font-size: 30px;
+  width: 300px;
+  text-align: center;
+  background: #333;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
   
-  #locandine #locandine-1 .locandina-a img{
-    max-width: 320px;
-  }
+#locandine #locandine-2 .locandina-b img{
+  max-width: 320px;
+}
 
-  #locandine #locandine-2 .locandina-title{
-    color: white;
-    font-size: 30px;
-    width: 300px;
-    text-align: center;
-    background: #333;
-    border-radius: 10px;
-    padding-top: 1rem;
-  }
-  
-  #locandine #locandine-2 .locandina-b img{
-    max-width: 320px;
-  }
+#locandine #locandine-3 .locandina-title{
+  color: white;
+  font-size: 30px;
+  width: 300px;
+  text-align: center;
+  background: #333;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
 
-  #locandine #locandine-3 .locandina-title{
-    color: white;
-    font-size: 30px;
-    width: 300px;
-    text-align: center;
-    background: #333;
-    border-radius: 10px;
-    padding-top: 1rem;
-  }
-  
-  #locandine #locandine-3 .locandina-c img{
-    max-width: 320px;
-  }
+#locandine #locandine-3 .locandina-c img{
+  max-width: 320px;
+}
 
-  /*MATERIALE TECNICO*/
-  #materiale{
-    height: 50vh;
-    font-size: 40px;
-  }
+/*MATERIALE TECNICO*/
+#materiale{
+  height: 50vh;
+  font-size: 40px;
+}
 
-  #materiale .title h1{
-    width: auto;
-  }
+#materiale .title h1{
+  width: auto;
+}
   
 /*ALTRO MATERIALE TECNICO*/
   #tecnico #tecnico-1 .tecnico-title{
