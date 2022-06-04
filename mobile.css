@@ -95,12 +95,24 @@ padding-bottom: 1rem;
 }
 
 /*VIDEO-GALLERY*/
-#video-gallery .title{
+#video-gallery{
+  height: 50vh;
   font-size: 40px;
 }
 
+#video-gallery .title h1{
+  width: auto;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
 .container-spettacoli .card .imgBx{
-  width: 250px;
+  width: 260px;
+  left: 10px;
+}
+
+.container-backstage .card .imgBx{
+  width: 260px;
   left: 10px;
 }
 
@@ -465,8 +477,8 @@ padding-bottom: 1rem;
    max-width: 90%;
 }
 
- /*ALTRI INVITI*/
- #altri-inviti{
+/*ALTRI INVITI*/
+#altri-inviti{
   font-size: 40px;
 }
 
@@ -494,18 +506,6 @@ padding-bottom: 1rem;
       
 #inviti .invito .descrizione-verticale h2{
   width: 300px;
-}
-
-/*Video*/
-#video-gallery{
-  height: 50vh;
-  font-size: 40px;
-}
-
-#video-gallery .title h1{
-  width: auto;
-  padding-left: 0rem;
-  padding-right: 0rem;
 }
 
 /*FORTUNA VIDEO*/

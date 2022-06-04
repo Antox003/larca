@@ -179,12 +179,16 @@ a.active,.menu li:hover{
   
   /*BACKSTAGE*/
   #backstage{
-    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: darkred;
+    height: auto;
   }
   
   .container-backstage{
     position: relative;
+    width: 1500px;
     display: flex;
     justify-content: center;
     align-items: center;

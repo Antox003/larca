@@ -406,34 +406,35 @@ a.active,.menu li:hover{
 }
 
 #inviti .invito .descrizione h2{
-    background: black;
-    border-radius: 10px;
-    width: 500px;
-    height: auto;
-    text-align: center;
+  background: black;
+  border-radius: 10px;
+  width: 500px;
+  height: auto;
+  text-align: center;
 }
 
 #inviti .invito .descrizione h2 .color{
-    color: orange ;
+  color: orange ;
 }
 
 #inviti .invito .biglietto-verticale img{
-    width: 800px;
-    padding-top: 1rem;
+  width: 800px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #inviti .invito .descrizione-verticale{
-    color: white;
-    font-size: 30px;
-    padding-top: 25rem;
+  color: white;
+  font-size: 30px;
+  padding-top: 25rem;
 }
 
 #inviti .invito .descrizione-verticale h2{
-    background: black;
-    border-radius: 10px;
-    width: 500px;
-    height: auto;
-    text-align: center;
+  background: black;
+  border-radius: 10px;
+  width: 500px;
+  height: auto;
+  text-align: center;
 }
 
 #inviti .invito .descrizione-verticale h2 .color{
