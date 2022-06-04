@@ -56,6 +56,10 @@ label.logo{
   transform: scale(1.0);
 }
 
+.altro .box{
+  margin-left: 0rem;
+}
+
 /*STORIA-SEZIONE 2*/
 #storia2 .container2 .sinistra2 img{
   display: none;
