@@ -143,11 +143,7 @@ a.active,.menu li:hover{
     transform: scale(1.1);
     transition: 0.2s ease;
   }
-  
-  .box p{
-    text-align: center;
-  }
-  
+
   .box p{
     color: darkred;
     margin: 1rem;
@@ -234,7 +230,6 @@ a.active,.menu li:hover{
   
   #abbonamento2 .title{
     color: orange;
-    font-size: 40px;
     text-align: center;
     background: #333;
     height: auto;
