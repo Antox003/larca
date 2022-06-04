@@ -274,17 +274,6 @@ a.active,.menu li:hover{
   color: orange;
 }
   
-.container .subtitle h1{
-  color: white;
-  font-size: 40px;
-  padding-left: 3rem;
-  padding-top: 3rem;
-}
-  
-.container .subtitle .color{
-  color: orange;
-}
-  
 #rassegna95 .biglietti{
   display: flex;
   justify-content: space-around;
@@ -308,7 +297,7 @@ a.active,.menu li:hover{
 
 #abbonamento .title{
   color: orange;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   background: #333;
   height: auto;
