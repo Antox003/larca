@@ -88,28 +88,27 @@ a.active,.menu li:hover{
   color: orange;
 }
 
-
-  /*Section1*/
-  #biglietti{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: darkred;
-    height: auto;
-  }
+/*CARD BIGLIETTI*/
+#biglietti{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: darkred;
+  height: auto;
+}
   
-  #biglietti .box-biglietti{
-    position: relative;
-    width: 1450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; 
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-  }
+#biglietti .box-biglietti{
+  position: relative;
+  width: 1450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
   
-  #biglietti .box-biglietti .box{
+#biglietti .box-biglietti .box{
   width: 335px;
   height: 500px;
   background: beige;
@@ -120,7 +119,7 @@ a.active,.menu li:hover{
   border-radius: 10px;
   margin-left: 2rem;
   margin-bottom: 2.5rem;
-  }
+}
 
   .box img{
     max-width:100%;
@@ -151,19 +150,23 @@ a.active,.menu li:hover{
     font-size: 20px;
   }
   
-  .box:hover{
-    transform: scale(1.1);
-  }
+.box:hover{
+  transform: scale(1.1);
+}
 
-  #disponibilita{
-    text-decoration: none;
-    cursor: not-allowed;
-  }
-  
-  #disponibilita a:hover{
+#disponibilita{
+  text-decoration: none;
+  cursor: not-allowed;
+}
+
+#disponibilita:hover{
+  transform: scale(1.0);
+}
+
+#disponibilita a:hover{
   color: darkred;
   transform: scale(1.0);
-  }
+}
 
 /*Rassegna 94'*/
 #rassegna94{
@@ -443,7 +446,6 @@ a.active,.menu li:hover{
 
 
 /*BROCHURE*/
-  
 #slider{
   margin: 0;
   padding: 0;

@@ -121,15 +121,16 @@ nav a.active,.menu li:hover{
   transform: scale(1.1);
 }
 
+#news .card a:hover{
+  color: orange;
+}
+
+
 #news .card a{
   margin: 0.5rem;
   font-size: 25px;
   color: darkred;
   text-align: center;
-}
-
-#news .card a:hover{
-  color: orange;
 }
 
 #news .card p{
@@ -138,7 +139,6 @@ nav a.active,.menu li:hover{
   color: darkred;
   text-align: center;
 }
-
 
 /*Section3*/
 #sito{
