@@ -121,34 +121,34 @@ a.active,.menu li:hover{
   margin-bottom: 2.5rem;
 }
 
-  .box img{
-    max-width:100%;
-    height: 240px;
-    width: 400px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
+.box img{
+  max-width:100%;
+  height: 240px;
+  width: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
   
-  .box a{
-    text-align: center;
-    color: darkred;
-    margin: 1rem;
-    font-size: 25px;
-    transition: 0.2s ease;
-  }
+.box a{
+  text-align: center;
+  color: darkred;
+  margin: 1rem;
+  font-size: 25px;
+  transition: 0.2s ease;
+}
 
-  .box a:hover{
-    color: orange;
-    transform: scale(1.1);
-    transition: 0.2s ease;
-  }
+.box a:hover{
+  color: orange;
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
 
-  .box p{
-    color: darkred;
-    margin: 1rem;
-    text-align: center;
-    font-size: 20px;
-  }
+.box p{
+  color: darkred;
+  margin: 1rem;
+  text-align: center;
+  font-size: 20px;
+}
   
 .box:hover{
   transform: scale(1.1);
@@ -391,57 +391,61 @@ a.active,.menu li:hover{
   background: darkred;
 }
 
-#inviti .invito{
+#invito{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; 
 }
 
-#inviti .invito .biglietto img{
-  width: 1000px;
-  padding-top: 1rem;
-}
-
-#inviti .invito .descrizione{
-  color: white;
-  font-size: 30px;
+.container-descrizione{
   padding-top: 9rem;
 }
 
-#inviti .invito .descrizione h2{
+.container-descrizione .descrizione h2{
   background: black;
+  color: white;
   border-radius: 10px;
   width: 500px;
   height: auto;
   text-align: center;
+  font-size: 40px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
-#inviti .invito .descrizione h2 .color{
+.container-descrizione .descrizione h2 .color{
   color: orange ;
 }
 
-#inviti .invito .biglietto-verticale img{
-  width: 800px;
+.container-invito .biglietto img{
+  max-width: 800px;
+  padding-top: 1rem;
+}
+
+#inviti #invito .biglietto-verticale img{
+  max-width: 800px;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-#inviti .invito .descrizione-verticale{
-  color: white;
-  font-size: 30px;
-  padding-top: 25rem;
+.descrizione-verticale{
+  padding-top: 10rem;
 }
 
-#inviti .invito .descrizione-verticale h2{
+#inviti #invito .descrizione-verticale h2{
   background: black;
+  color: white;
   border-radius: 10px;
   width: 500px;
   height: auto;
   text-align: center;
+  font-size: 40px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
-#inviti .invito .descrizione-verticale h2 .color{
-    color: orange ;
+#inviti #invito .descrizione-verticale h2 .color{
+  color: orange ;
 }
 
 

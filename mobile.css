@@ -251,45 +251,45 @@ padding-bottom: 1rem;
 }
   
 /*ALTRO MATERIALE TECNICO*/
-  #tecnico #tecnico-1 .tecnico-title{
-    font-size: 20px;
-    width: 200px;
-    margin-left: 0rem;
-  }
+#tecnico #tecnico-1 .tecnico-title{
+  font-size: 20px;
+  width: 200px;
+  margin-left: 0rem;
+}
   
-  #tecnico #tecnico-1 .tecnico-a img{
-    max-width: 320px;
-  }
+#tecnico #tecnico-1 .tecnico-a img{
+  max-width: 320px;
+}
 
-  #tecnico #tecnico-2 .tecnico-title{
-    font-size: 20px;
-    width: 200px;
-    margin-left: 0rem;
-  }
+#tecnico #tecnico-2 .tecnico-title{
+  font-size: 20px;
+  width: 200px;
+  margin-left: 0rem;
+}
   
-  #tecnico #tecnico-2 .tecnico-b img{
-    max-width: 320px;
-  }
+#tecnico #tecnico-2 .tecnico-b img{
+  max-width: 320px;
+}
 
-  #tecnico #tecnico-3 .tecnico-title{
-    font-size: 20px;
-    width: 200px;
-    margin-left: 0rem;
-  }
+#tecnico #tecnico-3 .tecnico-title{
+  font-size: 20px;
+  width: 200px;
+  margin-left: 0rem;
+}
   
-  #tecnico #tecnico-3 .tecnico-c img{
-    max-width: 320px;
-  }
+#tecnico #tecnico-3 .tecnico-c img{
+  max-width: 320px;
+}
 
-  #tecnico #tecnico-4 .tecnico-title{
-    font-size: 20px;
-    width: 300px;
-    margin-left: 0rem;
-  }
+#tecnico #tecnico-4 .tecnico-title{
+  font-size: 20px;
+  width: 300px;
+  margin-left: 0rem;
+}
   
-  #tecnico #tecnico-4 .tecnico-d img{
-    max-width: 320px;
-  }
+#tecnico #tecnico-4 .tecnico-d img{
+  max-width: 320px;
+}
 
 /*MATERIALE TECNICO(SCENOGRAFIE SCARFALIETTO 2)*/
 #scenografie-scarfalietto .title h1{
@@ -477,30 +477,35 @@ padding-bottom: 1rem;
   font-size: 40px;
 }
 
-#inviti .invito .biglietto img{
+#inviti{
+  display: block;
+}
+
+#inviti #invito .descrizione h2{
+  width: 400px;
+  font-size: 30px;
+}
+
+#inviti #invito .biglietto img{
   width: 90%;
 }
-      
-#inviti .invito .descrizione{
-  font-size: 20px;
+
+#inviti #invito .container-invito{
+  display: flex;
+  justify-content: center;
+}
+
+#inviti #invito .descrizione-verticale{
   padding-top: 3rem;
 }
-      
-#inviti .invito .descrizione h2{
-  width: 300px;
+   
+#inviti #invito .descrizione-verticale h2{
+  font-size: 30px;
+  width: 400px;
 }
-      
-#inviti .invito .biglietto-verticale img{
+
+#inviti #invito .biglietto-verticale img{
   width: 90%;
-}
-      
-#inviti .invito .descrizione-verticale{
-  font-size: 20px;
-  padding-top: 3rem;
-}
-      
-#inviti .invito .descrizione-verticale h2{
-  width: 300px;
 }
 
 /*FORTUNA VIDEO*/
