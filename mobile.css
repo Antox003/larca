@@ -203,46 +203,41 @@ padding-bottom: 1rem;
   font-size: 40px;
 }
 
-#locandine #locandine-1 .locandina-title{
-  color: white;
-  font-size: 30px;
-  width: 300px;
-  text-align: center;
-  background: #333;
-  border-radius: 10px;
-  padding-top: 1rem;
-}
-  
-#locandine #locandine-1 .locandina-a img{
-  max-width: 320px;
+#locandine{
+  display: block;
 }
 
-#locandine #locandine-2 .locandina-title{
-  color: white;
-  font-size: 30px;
-  width: 300px;
-  text-align: center;
-  background: #333;
-  border-radius: 10px;
-  padding-top: 1rem;
-}
-  
-#locandine #locandine-2 .locandina-b img{
+#locandine #locandina-1 .locandina-a img{
   max-width: 320px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-#locandine #locandine-3 .locandina-title{
-  color: white;
-  font-size: 30px;
-  width: 300px;
-  text-align: center;
-  background: #333;
-  border-radius: 10px;
-  padding-top: 1rem;
+#locandine #locandina-1 .container-locandina{
+  display: flex;
+  justify-content: center;
 }
 
-#locandine #locandine-3 .locandina-c img{
+#locandine #locandina-2 .locandina-b img{
   max-width: 320px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#locandine #locandina-2 .container-locandina{
+  display: flex;
+  justify-content: center;
+}
+
+#locandine #locandina-3 .locandina-c img{
+  max-width: 320px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#locandine #locandina-3 .container-locandina{
+  display: flex;
+  justify-content: center;
 }
 
 /*MATERIALE TECNICO*/
