@@ -409,42 +409,18 @@ padding-bottom: 1rem;
   margin-left: 0rem;
 }
 
-
 /*RASSEGNA 94*/
-.biglietti94 .biglietti94-1{
-  display: flex;
-  justify-content: center;
-}
-
-.biglietti94 .biglietto94-1 img{
+#biglietti94 #biglietto .container-biglietto94 .biglietto94 img{
   max-width: 70%;
 }
 
-.biglietti94 .biglietti94-2{
-  display: flex;
-  justify-content: center;
-}
-
-.biglietti94 .biglietto94-2 img{
+#abbonamenti94 #abbonamenti img{
   max-width: 70%;
-}
-    
-.biglietti94 .biglietti94-2{
-  display: flex;
-  justify-content: center;
-}
-
-.biglietti94-3 img{
-  max-width: 70%;
-}
-
-#abbonamento2 .title{
-  font-size: 35px;  
 }
 
 /*RASSEGNA 95*/
 .biglietti .biglietto1 img{
-   max-width: 70%;
+  max-width: 70%;
 }
     
 .biglietti .biglietto2 img{

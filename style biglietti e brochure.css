@@ -169,21 +169,23 @@ a.active,.menu li:hover{
 }
 
 /*Rassegna 94'*/
-#rassegna94{
+#background{
   background: url('./LARCA/background/background\ rassegne.webp') no-repeat center center/cover;
+}
+#rassegna94{
   height: auto;
   flex-direction: row; 
   flex-wrap: wrap;
 }
   
-#rassegna94 .container{
+#rassegna94 .container-title{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 45px;
+  font-size: 50px;
 }
 
-#rassegna94 .container h1{
+#rassegna94 .container-title h1{
   color: white;
   background: black;
   width: auto;
@@ -195,59 +197,48 @@ a.active,.menu li:hover{
   padding-right: 0.5rem;
 }
   
-.container .title2 .color2{
+.container-title .title .color{
   color: orange;
 }
   
-  #rassegna94 .biglietti94{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; 
-  }
-  
-  .biglietti94 .biglietto94-1 img{
-    padding-top: 1.5rem;
-    max-width: 700px;
-  }
+#biglietti94{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
-  .biglietti94 .biglietto94-2 img{
-    padding-top: 1.5rem;
-    max-width: 700px;
-  }
-  
-  .biglietti94-3 {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 1rem;
-  }
-  
-  .biglietti94-3 img{
-    max-width: 700px;
-    padding-top: 2rem;
-  }
-  
-  #abbonamento2 {
-    background: darkred;
-    height: auto;
-  }
-  
-  #abbonamento2 .title{
-    color: orange;
-    text-align: center;
-    font-size: 50px;
-    background: #333;
-    height: auto;
-  }
-  
-  #abbonamento2 .front-end2{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-  }
-  
+#biglietti94 #biglietto .container-biglietto94 .biglietto94 img{
+  max-width: 800px;
+}
+
+#abbonamento-title .title{
+  color: orange;
+  text-align: center;
+  font-size: 40px;
+  background: #333;
+  height: auto;
+}
+
+#abbonamenti94{
+  background: darkred;
+  height: auto;
+}
+
+#abbonamenti94 #abbonamenti{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#abbonamenti94 #abbonamenti img{
+  max-width: 500px;
+}
+
+
 /*Rassegna 95'*/
 #rassegna95{
   background:url('./LARCA/background/background\ rassegne.webp') no-repeat center center/cover;
