@@ -1133,14 +1133,6 @@ color: orange;
 
 
 
-
-
-
-
-
-
-
-
 /*SubFooter*/
 #subfooter2 h3{
   color: orange;
@@ -1149,6 +1141,7 @@ color: orange;
   height: auto;
   text-align: center;
   padding-bottom: 3px;
+  padding-top: 5px;
 }
 
 /*Footer*/
