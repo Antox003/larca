@@ -40,6 +40,7 @@ label.logo{
 /*HOME TITLE*/
 #showcase .container{
   font-size: 40px;
+  height: 75vh;
 }
 
 #showcase .container h1{
