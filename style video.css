@@ -1066,6 +1066,10 @@ margin:0 auto;
   font-size: 30px;
 }
 
+#scuse-saverio .trama p a{
+  color: orange;
+}
+
 /*BACKSTAGE DOJE MARITE MBRUGLUNE*/
 #backstage-marite{
   background: url('./LARCA/background/background-video.webp');
@@ -1109,7 +1113,9 @@ margin:0 auto;
   font-size: 30px;
 }
 
-
+#info .trama p a{
+  color: orange;
+}
 
 
 
