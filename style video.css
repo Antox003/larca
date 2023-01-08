@@ -827,8 +827,9 @@ margin:0 auto;
 }
 
 #trama-pecore{
-    height: auto;
-    background: darkred   ;
+  height: auto;
+  background: darkred;
+  padding-bottom: 10rem;
 }
 
 #trama-pecore .trama h2{
@@ -836,47 +837,12 @@ margin:0 auto;
   color: orange;
   text-align: center;
   padding-top: 1.5rem;
-  }
+}
   
-  #trama-pecore .trama p{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-  }
-
-#info7 {
-  height: auto;
-  background: darkred;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-top: 1rem;
-}
-
-#info7 .data-ora h2{
-  font-size: 50px;
-  color: orange;
-  text-align: center;
-  padding-top: 1.5rem;
-}
-
-#info7 .data-ora p{
+#trama-pecore .trama p{
   color: white;
   text-align: center;
   font-size: 30px;
-}
-
-#info7 .locandina-pecore h2{
- text-align: center;
- color: orange;
- font-size: 50px;
- padding-top: 1.5rem;
-}
-
-#info7 .locandina-pecore img{
-max-width: 80%;
-display: block;
-margin:0 auto;
 }
 
 /*ministro video*/
@@ -925,7 +891,8 @@ margin:0 auto;
 
 #trama-ministro{
   height: auto;
-  background: darkred   ;
+  background: darkred;
+  padding-bottom: 2rem;
 }
 
 #trama-ministro .trama h2{
@@ -940,42 +907,6 @@ margin:0 auto;
   text-align: center;
   font-size: 30px;
 }
-
-#info8 {
-  height: auto;
-  background: darkred;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-top: 1rem;
-}
-
-#info8 .data-ora h2{
-  font-size: 50px;
-  color: orange;
-  text-align: center;
-  padding-top: 1.5rem;
-}
-
-#info8 .data-ora p{
-  color: white;
-  text-align: center;
-  font-size: 30px;
-}
-
-#info8 .locandina-ministro h2{
- text-align: center;
- color: orange;
- font-size: 50px;
- padding-top: 1.5rem;
-}
-
-#info8 .locandina-ministro img{
-max-width: 80%;
-display: block;
-margin:0 auto;
-}
-
 
 /*sinneco video*/
 #sinneco{
@@ -1022,8 +953,9 @@ margin:0 auto;
 }
 
 #trama-sinneco{
-    height: auto;
-    background: darkred;
+  height: auto;
+  background: darkred;
+  padding-bottom: 5rem;
 }
 
 #trama-sinneco .trama h2{
@@ -1031,54 +963,18 @@ margin:0 auto;
   color: orange;
   text-align: center;
   padding-top: 1.5rem;
-  }
+}
   
-  #trama-sinneco .trama p{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-  }
-
-#info9 {
-  height: auto;
-  background: darkred;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-top: 1rem;
-}
-
-#info9 .data-ora h2{
-  font-size: 50px;
-  color: orange;
-  text-align: center;
-  padding-top: 1.5rem;
-}
-
-#info9 .data-ora p{
+#trama-sinneco .trama p{
   color: white;
   text-align: center;
   font-size: 30px;
 }
 
-#info9 .locandina-sinneco h2{
- text-align: center;
- color: orange;
- font-size: 50px;
- padding-top: 1.5rem;
-}
-
-#info9 .locandina-sinneco img{
-max-width: 80%;
-display: block;
-margin:0 auto;
-}
-
-
 /*lettere video*/
 #lettere{
   background: url('./LARCA/background/background-video.webp');
-  height: auto;
+  height: 100vh;
 }
 
 #lettere .container{
@@ -1117,59 +1013,6 @@ margin:0 auto;
   width: 500px;
   border-radius: 10px;
   text-align: center;
-}
-
-#trama-lettere{
-    height: auto;
-    background: darkred;
-}
-
-#trama-lettere .trama h2{
-  font-size: 50px;
-  color: orange;
-  text-align: center;
-  padding-top: 1.5rem;
-}
-  
-#trama-lettere .trama p{
-  color: white;
-  text-align: center;
-  font-size: 30px;
-}
-
-#info10 {
-  height: 30vh;
-  background: darkred;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-top: 1rem;
-}
-
-#info10 .data-ora h2{
-  font-size: 50px;
-  color: orange;
-  text-align: center;
-  padding-top: 1.5rem;
-}
-
-#info10 .data-ora p{
-  color: white;
-  text-align: center;
-  font-size: 30px;
-}
-
-#info10 .locandina-lettere h2{
- text-align: center;
- color: orange;
- font-size: 50px;
- padding-top: 1.5rem;
-}
-
-#info10 .locandina-lettere img{
-max-width: 80%;
-display: block;
-margin:0 auto;
 }
 
 /*SCUSE SAVERIO*/
